@@ -29,6 +29,7 @@
   <ItemGroup />
   <ItemGroup>
     <Compile Include="GetADinv.ps1" />
+    <Compile Include="GetIISinv.ps1" />
     <Compile Include="INSinv.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
