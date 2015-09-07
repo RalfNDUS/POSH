@@ -2,7 +2,7 @@
 # INSinv.ps1
 #
 #	Author: Ralf Nelle
-#	Last Change: 29.07.2015
+#	Last Change: 21.08.2015
 #
 
 Param(
@@ -10,7 +10,7 @@ Param(
     [String]$NetworkName = $ENV:USERDOMAIN,	
     [alias("Cred")]
     $Credential,
-	[Switch]$All = $true
+	[Switch]$All = $false
 )
 
 # ---------------------------------------------------------------------------
@@ -52,17 +52,26 @@ $OsCol = New-Object PsObject -Property @{
 
 $PropCol = @()
 
-if ($All) {
-	$PropCol += New-Object PsObject -Property @{
-		'Query' = "Select * from Win32_Processor"
-		'Props' = 
-			@{Name="CpuName"; Expression={(TrimSpace $_.Name)}},
-			@{Name="CpuCaption"; Expression={$_.Caption}},
-			@{Name="CpuCores"; Expression={$_.NumberOfCores}},
-			@{Name="CpuLogicalProcessors"; Expression={$_.NumberOfLogicalProcessors}},
-			@{Name="CpuMaxClockSpeed"; Expression={$_.MaxClockSpeed}}
-		'Multiple' = $true		
-	}
+
+$PropCol += New-Object PsObject -Property @{
+	'Query' = "Select * from Win32_Processor"
+	'Props' = 
+		@{Name="CpuName"; Expression={(TrimSpace $_.Name)}},
+		@{Name="CpuCaption"; Expression={$_.Caption}},
+		@{Name="CpuCores"; Expression={$_.NumberOfCores}},
+		@{Name="CpuLogicalProcessors"; Expression={$_.NumberOfLogicalProcessors}},
+		@{Name="CpuMaxClockSpeed"; Expression={$_.MaxClockSpeed}}
+	'Multiple' = $true		
+}
+
+$PropCol += New-Object PsObject -Property @{
+	'Query' = "Select * from Win32_PhysicalMemory"
+	'Props' = 
+		@{Name="RamTag"; Expression={$_.Tag}},
+		@{Name="RamCapacity"; Expression={[int64]$_.Capacity/1MB}},
+		@{Name="RamSpeed"; Expression={$_.Speed}}
+	'Multiple' = $true		
+
 }
 
 $PropCol += New-Object PsObject -Property @{
@@ -333,3 +342,8 @@ Foreach ($HostName in $HostNames) {
 }
 
 # End of script
+
+
+
+
+
