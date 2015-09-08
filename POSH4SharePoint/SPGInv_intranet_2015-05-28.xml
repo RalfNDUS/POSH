@@ -1,0 +1,2461 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SPFarm>
+  <SPGroups>
+    <SPGroup Name="Absender des Datenarchiv-Webdiensts für Normen und Gesetze" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Absender des Datenarchiv-Webdiensts für test" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Aktuelles Mitglieder" Owner="PEP\rnelle" />
+    <SPGroup Name="Altenpflegeheim Kronberg Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Altenpflegeheim Kronberg Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Ambulante Dienste Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="AUD SGSZ" Owner="PEP\rnelle" />
+    <SPGroup Name="Benutzer für schnelles Bereitstellen" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Bereichsleitungen" Owner="PEP\ameier">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\henningsen" DisplayName="Henningsen, Ute" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\kallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Berghof Bethanien Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Berghof Bethanien Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\mhäde" DisplayName="Häde, Matthias" />
+        <SPUser UserLogin="PEP\eoerter" DisplayName="Oerter, Edith" />
+        <SPUser UserLogin="PEP\goerter" DisplayName="Oerter, Gerhard" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Berghof Bethanien Therapieplaner Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Berghof Bethanien Therapieplaner Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\mhäde" DisplayName="Häde, Matthias" />
+        <SPUser UserLogin="PEP\eoerter" DisplayName="Oerter, Edith" />
+        <SPUser UserLogin="PEP\goerter" DisplayName="Oerter, Gerhard" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von AD" Owner="Besitzer von AD">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von AD Dortmund" Owner="Besitzer von AD Dortmund">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von AD Lüdenscheid" Owner="Besitzer von AD Lüdenscheid">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von AD Solingen" Owner="Besitzer von AD Solingen">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Betriebsanweisungen" Owner="Besitzer von Betriebsanweisungen">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Dessau" Owner="Besitzer von Dessau">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Dienstvereinbarungen" Owner="Besitzer von Dienstvereinbarungen">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von EA" Owner="Besitzer von EA">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Ewersbach" Owner="Besitzer von Ewersbach">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Fachseminar" Owner="Besitzer von Fachseminar">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Halver" Owner="Besitzer von Halver">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Krankenhaus" Owner="Besitzer von Krankenhaus">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Langeoog" Owner="Besitzer von Langeoog">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von MAV im internen Gespräch" Owner="Besitzer von MAV im internen Gespräch" />
+    <SPGroup Name="Besitzer von Projekte" Owner="Besitzer von Projekte">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von QM AD Langeoog" Owner="Besitzer von QM AD Langeoog" />
+    <SPGroup Name="Besitzer von QM Handbuch" Owner="Besitzer von QM Handbuch" />
+    <SPGroup Name="Besitzer von Schnittstelle IT_MH" Owner="Besitzer von Schnittstelle IT_MH">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\heymann" DisplayName="Heymann, Christa" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\mschwarz" DisplayName="Schwarz, Michael-Robin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Solimed" Owner="Besitzer von Solimed">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\mschwarz" DisplayName="Schwarz, Michael-Robin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Teamwebsite" Owner="Besitzer von Teamwebsite" />
+    <SPGroup Name="Besitzer von Technischer Dienst" Owner="Besitzer von Technischer Dienst">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\alewandowski" DisplayName="Lewandowski, Anna" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Uedem" Owner="Besitzer von Uedem">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besitzer von Vorstandssitzung LuKS" Owner="Besitzer von Vorstandssitzung LuKS" />
+    <SPGroup Name="Besitzer von Zentralverwaltung" Owner="Besitzer von Zentralverwaltung">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Besucher von Fachseminar Solingen" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Besucher von Infrastrukturdaten" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Besucher von QM AD Langeoog" Owner="Besitzer von QM AD Langeoog" />
+    <SPGroup Name="Besucher von Schnittstelle IT_MH" Owner="Besitzer von Schnittstelle IT_MH" />
+    <SPGroup Name="Besucher von Standortsite" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Besucher von Teamwebsite" Owner="Besitzer von Teamwebsite" />
+    <SPGroup Name="Bildungszentrum Bethanien 2014-Workflowbenutzer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="15">
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\efranz" DisplayName="Franz, Elisabeth" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\jrockhoff" DisplayName="Rockhoff, Jens" />
+        <SPUser UserLogin="PEP\nschmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\jschumann" DisplayName="Schumann, Julia" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="bzb2 Besitzer" Owner="bzb2 Besitzer" />
+    <SPGroup Name="bzb2 Besucher" Owner="bzb2 Besitzer" />
+    <SPGroup Name="bzb2 Mitglieder" Owner="bzb2 Besitzer" />
+    <SPGroup Name="Designer" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Digitales Verbandbuch Abteilungs-Prüfer" Owner="PEP\rnelle">
+      <SPUsers Count="22">
+        <SPUser UserLogin="PEP\ubotzen" DisplayName="Botzen, Ulrich" />
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\hhaller" DisplayName="Haller, Hans-Jürgen" />
+        <SPUser UserLogin="PEP\ujacobs" DisplayName="Jacobs, Ute" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\alueg" DisplayName="Lueg, Andrea" />
+        <SPUser UserLogin="PEP\münter" DisplayName="Münter, Roland" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\goerter" DisplayName="Oerter, Gerhard" />
+        <SPUser UserLogin="PEP\kreuter" DisplayName="Reuter, Kerstin" />
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\sschrader" DisplayName="Schrader, Simone" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\rschürmann" DisplayName="Schürmann, Robin" />
+        <SPUser UserLogin="PEP\lstähler" DisplayName="Stähler, Lutz" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+        <SPUser UserLogin="PEP\cwetter" DisplayName="Wetter, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Digitales Verbandbuch Eintrager" Owner="PEP\rnelle">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\wheisenberg" DisplayName="Heisenberg, Werner" />
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\domänen-benutzer" DisplayName="PEP\domänen-benutzer" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Digitales Verbandbuch Prüfer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Digitales Verbandbuch-Workflowbenutzer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="20">
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\ujacobs" DisplayName="Jacobs, Ute" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\alueg" DisplayName="Lueg, Andrea" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\jrockhoff" DisplayName="Rockhoff, Jens" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\sschrader" DisplayName="Schrader, Simone" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\lstähler" DisplayName="Stähler, Lutz" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+        <SPUser UserLogin="PEP\cwetter" DisplayName="Wetter, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="FoBi Bildungszentrum Bethanien-Workflowbenutzer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="12">
+        <SPUser UserLogin="PEP\efranz" DisplayName="Franz, Elisabeth" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\hortmann" DisplayName="Ortmann, Hildegund" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Formatressourcenleser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="NT-AUTORITÄT\authentifizierte benutzer" DisplayName="NT-AUTORITÄT\Authentifizierte Benutzer" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Genehmigende Personen" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="GQZ" Owner="PEP\rnelle">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\mehm" DisplayName="Ehm, Marcel" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Groups_Junge_Leute" Owner="PEP\ameier">
+      <SPUsers Count="9">
+        <SPUser UserLogin="PEP\heymann" DisplayName="Heymann, Christa" />
+        <SPUser UserLogin="PEP\ujacobs" DisplayName="Jacobs, Ute" />
+        <SPUser UserLogin="PEP\tknabe" DisplayName="Knabe, Tobias" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\schönknecht" DisplayName="Schönknecht, Beate" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Hierarchie-Manager" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Home-Workflowbenutzer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="14">
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\kgettschoreck" DisplayName="Gettschoreck, Kornelia" />
+        <SPUser UserLogin="PEP\grp hvp außenstellen terminal user" DisplayName="grp AMD HVP Terminal User" />
+        <SPUser UserLogin="PEP\grp server29 terminaluser" DisplayName="grp HVP SG Terminaluser" />
+        <SPUser UserLogin="PEP\wheisenberg" DisplayName="Heisenberg, Werner" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\domänen-benutzer" DisplayName="PEP\domänen-benutzer" />
+        <SPUser UserLogin="PEP\grp ew alle" DisplayName="PEP\grp ew alle" />
+        <SPUser UserLogin="PEP\grp halver alle" DisplayName="PEP\grp halver alle" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="KH Leser" Owner="PEP\rnelle" />
+    <SPGroup Name="Losungsbeauftragter" Owner="PEP\rnelle" />
+    <SPGroup Name="MAZQE" Owner="PEP\ameier">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\abeck" DisplayName="Beck, Annika" />
+        <SPUser UserLogin="PEP\benutzer5" DisplayName="Benutzer5" />
+        <SPUser UserLogin="PEP\Benutzer6" DisplayName="Benutzer6" />
+        <SPUser UserLogin="PEP\ademirel" DisplayName="Demirel, Aylin" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\jmeier" DisplayName="Meier, Julia" />
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitarbeiterpunkte-Workflowbenutzer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="29">
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\ydaneva" DisplayName="Daneva, Yvonna" />
+        <SPUser UserLogin="PEP\kgettschoreck" DisplayName="Gettschoreck, Kornelia" />
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\wheisenberg" DisplayName="Heisenberg, Werner" />
+        <SPUser UserLogin="PEP\lhermes" DisplayName="Hermes, Lena" />
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\hihle" DisplayName="Ihle, Hannelore" />
+        <SPUser UserLogin="PEP\tjaeger" DisplayName="Jäger, Tim" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\mkosian" DisplayName="Kosian, Martin" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\dmunkel" DisplayName="Munkel, Daniela" />
+        <SPUser UserLogin="PEP\jostermeier" DisplayName="Ostermeier, Jörn" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\apolentz" DisplayName="Polentz, Alexandra" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\ureeh" DisplayName="Reeh, Ute" />
+        <SPUser UserLogin="PEP\nschmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\jschumann" DisplayName="Schumann, Julia" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+        <SPUser UserLogin="PEP\wiese" DisplayName="Wiese, Karen" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von AD" Owner="Besitzer von AD" />
+    <SPGroup Name="Mitglieder von AD Dortmund" Owner="Besitzer von AD Dortmund" />
+    <SPGroup Name="Mitglieder von AD Lüdenscheid" Owner="Besitzer von AD Lüdenscheid" />
+    <SPGroup Name="Mitglieder von AD Solingen" Owner="Besitzer von AD Solingen" />
+    <SPGroup Name="Mitglieder von Betriebsanweisungen" Owner="Besitzer von Betriebsanweisungen" />
+    <SPGroup Name="Mitglieder von Dessau" Owner="Besitzer von Dessau">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Dienstvereinbarungen" Owner="Besitzer von Dienstvereinbarungen">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\hollweg" DisplayName="Hollweg, Birgit" />
+        <SPUser UserLogin="PEP\schneider" DisplayName="MAV" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von EA" Owner="Besitzer von EA">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Ewersbach" Owner="Besitzer von Ewersbach">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Fachseminar" Owner="Besitzer von Fachseminar">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\kgall" DisplayName="Gall, Kathrin" />
+        <SPUser UserLogin="PEP\tgoeke" DisplayName="Goeke, Tanja" />
+        <SPUser UserLogin="PEP\oimhof" DisplayName="Imhof, Otto" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\sschrader" DisplayName="Schrader, Simone" />
+        <SPUser UserLogin="PEP\cwetter" DisplayName="Wetter, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Fachseminar Solingen" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Mitglieder von Gesetze §§" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Mitglieder von Halver" Owner="Besitzer von Halver">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Home" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+        <SPUser UserLogin="PEP\aschneider" DisplayName="Schneider, Mav Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Infrastrukturdaten" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Mitglieder von Krankenhaus" Owner="Besitzer von Krankenhaus">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Langeoog" Owner="Besitzer von Langeoog">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von MAV im internen Gespräch" Owner="Besitzer von MAV im internen Gespräch">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\schneider" DisplayName="MAV" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von QM AD Langeoog" Owner="Besitzer von QM AD Langeoog" />
+    <SPGroup Name="Mitglieder von QM Träger" Owner="SPG_QM_TQM_Besitzer" />
+    <SPGroup Name="Mitglieder von Schnittstelle IT_MH" Owner="Besitzer von Schnittstelle IT_MH" />
+    <SPGroup Name="Mitglieder von Solimed" Owner="Besitzer von Solimed">
+      <SPUsers Count="10">
+        <SPUser UserLogin="PEP\sbreuer" DisplayName="Breuer, Stefan" />
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\mgertjejanßen" DisplayName="Gertjejanßen, Marcus" />
+        <SPUser UserLogin="PEP\rgross" DisplayName="Gross, Roswitha" />
+        <SPUser UserLogin="PEP\oimhof" DisplayName="Imhof, Otto" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\erieger" DisplayName="Rieger, Eckhard" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Standortsite" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="Mitglieder von Teamwebsite" Owner="Besitzer von Teamwebsite" />
+    <SPGroup Name="Mitglieder von Technischer Dienst" Owner="Besitzer von Technischer Dienst">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\alewandowski" DisplayName="Lewandowski, Anna" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Uedem" Owner="Besitzer von Uedem">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Mitglieder von Vorstandssitzung LuKS" Owner="Besitzer von Vorstandssitzung LuKS" />
+    <SPGroup Name="Mitglieder von Zentralverwaltung" Owner="Besitzer von Zentralverwaltung">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="News Leitende Mitarbeiter Teilnehmer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="40">
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\kbreuer" DisplayName="Breuer, Katharina" />
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\tgoeke" DisplayName="Goeke, Tanja" />
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\hhaller" DisplayName="Haller, Hans-Jürgen" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\oimhof" DisplayName="Imhof, Otto" />
+        <SPUser UserLogin="PEP\ujacobs" DisplayName="Jacobs, Ute" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\kallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\fkrause" DisplayName="Krause, Frank" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\ukühn" DisplayName="Kühn, Ulrich" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\gmosner" DisplayName="Mosner, Gerhard" />
+        <SPUser UserLogin="PEP\münter" DisplayName="Münter, Roland" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\eoerter" DisplayName="Oerter, Edith" />
+        <SPUser UserLogin="PEP\goerter" DisplayName="Oerter, Gerhard" />
+        <SPUser UserLogin="PEP\apolentz" DisplayName="Polentz, Alexandra" />
+        <SPUser UserLogin="PEP\wranderath" DisplayName="Randerath, Winfried" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\kreuter" DisplayName="Reuter, Kerstin" />
+        <SPUser UserLogin="PEP\erieger" DisplayName="Rieger, Eckhard" />
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+        <SPUser UserLogin="PEP\nschmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\aschneider" DisplayName="Schneider, Mav Andreas" />
+        <SPUser UserLogin="PEP\sschrader" DisplayName="Schrader, Simone" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\bsevert" DisplayName="Severt, Bernd" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Patientenarchiv Besitzer" Owner="Patientenarchiv Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Patientenarchiv Leser" Owner="Patientenarchiv Besitzer" />
+    <SPGroup Name="Patientenarchiv Mitwirker" Owner="Patientenarchiv Besitzer" />
+    <SPGroup Name="Personen mit eingeschränkten Leserechten" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="QM AD Iserlohn Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="QM AD Iserlohn Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\abeck" DisplayName="Beck, Annika" />
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\tkaiser" DisplayName="Kaiser, Tabea" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="QM AD SiBu Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="QM AD SiBu Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\abeck" DisplayName="Beck, Annika" />
+        <SPUser UserLogin="PEP\mbenkner" DisplayName="Benkner, Michael" />
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\PGonska" DisplayName="Gonska, Petra" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+        <SPUser UserLogin="PEP\kschwarzfärber" DisplayName="Schwarzfärber, Karin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="QM Beauftragte" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="QM Handbuch Mitglieder" Owner="Besitzer von QM Handbuch" />
+    <SPGroup Name="QMG SG SZ" Owner="PEP\rnelle" />
+    <SPGroup Name="Seniorenzentrum Halver Besucher" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\domänen-benutzer" DisplayName="PEP\domänen-benutzer" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Seniorenzentrum Halver Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\jschultk" DisplayName="Schultk, Johanna" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Seniorenzentrum Solingen Besitzer" Owner="Seniorenzentrum Solingen Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Seniorenzentrum Solingen Besucher" Owner="Seniorenzentrum Solingen Besitzer" />
+    <SPGroup Name="Seniorenzentrum Solingen Mitglieder" Owner="Seniorenzentrum Solingen Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+        <SPUser UserLogin="PEP\grp sz pdl" DisplayName="PEP\grp ah pdl" />
+        <SPUser UserLogin="PEP\cwetter" DisplayName="Wetter, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SP_Arbeitssicherheit_Besucher" Owner="SPG_GROUPS_ASA_Besitzer">
+      <SPUsers Count="11">
+        <SPUser UserLogin="PEP\cfischer" DisplayName="Fischer, Claudia" />
+        <SPUser UserLogin="PEP\kgettschoreck" DisplayName="Gettschoreck, Kornelia" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+        <SPUser UserLogin="PEP\jrockhoff" DisplayName="Rockhoff, Jens" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\cschoeller" DisplayName="Schöller, Christiane" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SP_Arbeitssicherheit_Mitglieder" Owner="SPG_GROUPS_ASA_Besitzer">
+      <SPUsers Count="17">
+        <SPUser UserLogin="PEP\hfriel" DisplayName="Friel, Heike" />
+        <SPUser UserLogin="PEP\henningsen" DisplayName="Henningsen, Ute" />
+        <SPUser UserLogin="PEP\heymann" DisplayName="Heymann, Christa" />
+        <SPUser UserLogin="PEP\dkirchhof" DisplayName="Kirchhof, Dieter" />
+        <SPUser UserLogin="PEP\knöppel" DisplayName="Knöppel, Bettina" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\agnetameier" DisplayName="Meier, Agneta" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\radtke" DisplayName="Radtke, Gerhard" />
+        <SPUser UserLogin="PEP\treinel" DisplayName="Reinel, Thomas" />
+        <SPUser UserLogin="PEP\gunterderweide" DisplayName="Unterderweide, Günther" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+        <SPUser UserLogin="PEP\mavuzozie" DisplayName="Uzozie, MAV Heidel" />
+        <SPUser UserLogin="PEP\gwans" DisplayName="Wans, Gabriele" />
+        <SPUser UserLogin="PEP\wiese" DisplayName="Wiese, Karen" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SP_FOBI_BZB_Besitzer" Owner="SP_FOBI_BZB_Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\mehm" DisplayName="Ehm, Marcel" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SP_FOBI_BZB_Besucher" Owner="SP_FOBI_BZB_Besitzer" />
+    <SPGroup Name="SP_FOBI_BZB_Mitglieder" Owner="SP_FOBI_BZB_Besitzer" />
+    <SPGroup Name="SP_FOBI_SG-Schulungen_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SP_FOBI_SG-Schulungen_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SP_FOBI_SGSZ_Besitzer" Owner="SP_FOBI_SGSZ_Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\mehm" DisplayName="Ehm, Marcel" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SP_FOBI_SGSZ_Besucher" Owner="SP_FOBI_SGSZ_Besitzer" />
+    <SPGroup Name="SP_FOBI_SGSZ_Mitglieder" Owner="SP_FOBI_SGSZ_Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\henningsen" DisplayName="Henningsen, Ute" />
+        <SPUser UserLogin="PEP\ctobschall" DisplayName="Tobschall, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SP_FOBI_SZ_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SP_FOBI_SZ_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SP_Groups_Wirtschafdtsdienste_Mitwirker" Owner="PEP\ameier">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\hentschel" DisplayName="Hentschel, Sabine" />
+        <SPUser UserLogin="PEP\klewinghaus" DisplayName="Klewinghaus, Jutta" />
+        <SPUser UserLogin="PEP\chefkoch" DisplayName="Schmidt, Markus" />
+        <SPUser UserLogin="PEP\tofahrn" DisplayName="Tofahrn, Armin" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SP_Groups_Wirtschaftsdienste_Leser" Owner="PEP\ameier" />
+    <SPGroup Name="SP_Intranet_Besucher" Owner="PEP\ameier" />
+    <SPGroup Name="SP_SGSZ" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Abt IT Leser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Abt IT Mitwirker" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\grp edv" DisplayName="PEP\grp edv" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Abt IT Passwort-Manager" Owner="PEP\rnelle" />
+    <SPGroup Name="SPG Abteilung BZB Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Abteilung BZB Mitglieder" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG AD AS Leser" Owner="PEP\lehmann">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\ajabbar" DisplayName="Jabbar, Asha" />
+        <SPUser UserLogin="PEP\akolb" DisplayName="Kolb, Ariane" />
+        <SPUser UserLogin="PEP\akonkel" DisplayName="Konkel, Alexandra" />
+        <SPUser UserLogin="PEP\KReeb" DisplayName="Reeb, Katharina" />
+        <SPUser UserLogin="PEP\MWaldhauser" DisplayName="Waldhauser, Marcel" />
+        <SPUser UserLogin="PEP\wiese" DisplayName="Wiese, Karen" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD AS Mitwirker" Owner="PEP\lehmann">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\clanger" DisplayName="Langer, Cora" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\gwans" DisplayName="Wans, Gabriele" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD DO Bezugspflege" Owner="PEP\lehmann" />
+    <SPGroup Name="SPG AD DO EL" Owner="PEP\lehmann">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD DO öffentliche Rechner" Owner="PEP\lehmann">
+      <SPUsers Count="8">
+        <SPUser UserLogin="PEP\doempfang" DisplayName="Dortmund Empfang" />
+        <SPUser UserLogin="PEP\dopflegemitarbeiter1" DisplayName="Dortmund, Pflegemitarbeiter1" />
+        <SPUser UserLogin="PEP\dopflegemitarbeiter3" DisplayName="Dortmund, Pflegemitarbeiter3" />
+        <SPUser UserLogin="PEP\DOPraktikant1" DisplayName="Dortmund, Praktikant1" />
+        <SPUser UserLogin="PEP\DOPraktikant2" DisplayName="Dortmund, Praktikant2" />
+        <SPUser UserLogin="PEP\dopraktikant3" DisplayName="Dortmund, Praktikant3" />
+        <SPUser UserLogin="PEP\pdlsenioren" DisplayName="PDLSenioren," />
+        <SPUser UserLogin="PEP\grp do gesamt" DisplayName="PEP\grp do gesamt" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD DO QM" Owner="PEP\lehmann">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\doempfang" DisplayName="Dortmund Empfang" />
+        <SPUser UserLogin="PEP\agalda" DisplayName="Galda, Andrea" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\kupper" DisplayName="Kupper, Susanne" />
+        <SPUser UserLogin="PEP\GCwiklinski" DisplayName="PEP\GCwiklinski" />
+        <SPUser UserLogin="PEP\EPfennig" DisplayName="Pfennig, Eveline" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD DO TL" Owner="PEP\lehmann" />
+    <SPGroup Name="SPG AD Dortmund Bezugspfleger" Owner="PEP\lehmann" />
+    <SPGroup Name="SPG AD Dortmund Leser" Owner="PEP\lehmann" />
+    <SPGroup Name="SPG AD EL" Owner="PEP\lehmann">
+      <SPUsers Count="14">
+        <SPUser UserLogin="PEP\mbenkner" DisplayName="Benkner, Michael" />
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\ahütwohl" DisplayName="Hütwohl, Antja" />
+        <SPUser UserLogin="PEP\BIrle" DisplayName="Irle, Bianca" />
+        <SPUser UserLogin="PEP\kollbach" DisplayName="Kollbach, Hildegard" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\alueg" DisplayName="Lueg, Andrea" />
+        <SPUser UserLogin="PEP\BMann" DisplayName="Mann, Bianka" />
+        <SPUser UserLogin="PEP\EPfennig" DisplayName="Pfennig, Eveline" />
+        <SPUser UserLogin="PEP\apolentz" DisplayName="Polentz, Alexandra" />
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+        <SPUser UserLogin="PEP\kschwarzfärber" DisplayName="Schwarzfärber, Karin" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD IS Bezugspflege" Owner="PEP\rnelle" />
+    <SPGroup Name="SPG AD IS EL" Owner="PEP\rnelle" />
+    <SPGroup Name="SPG AD IS TL" Owner="PEP\rnelle" />
+    <SPGroup Name="SPG AD ISERLOHN EL" Owner="PEP\lehmann">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\BMann" DisplayName="Mann, Bianka" />
+        <SPUser UserLogin="PEP\apolentz" DisplayName="Polentz, Alexandra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD ISL Bezugspflege" Owner="PEP\lehmann" />
+    <SPGroup Name="SPG AD ISL EL" Owner="PEP\lehmann">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\BMann" DisplayName="Mann, Bianka" />
+        <SPUser UserLogin="PEP\apolentz" DisplayName="Polentz, Alexandra" />
+        <SPUser UserLogin="PEP\APosmik" DisplayName="Posmik, Andrea" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD ISL TL" Owner="PEP\lehmann" />
+    <SPGroup Name="SPG AD LANGEOOG EL" Owner="PEP\lehmann">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\alueg" DisplayName="Lueg, Andrea" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD LS Bezugspflege" Owner="PEP\rnelle">
+      <SPUsers Count="15">
+        <SPUser UserLogin="PEP\lebuluotah" DisplayName="Ebulu Otah, Linda" />
+        <SPUser UserLogin="PEP\mganghoff" DisplayName="Ganghoff, Meike" />
+        <SPUser UserLogin="PEP\cgrzybek" DisplayName="Grzybek, Constanze" />
+        <SPUser UserLogin="PEP\ukahlert" DisplayName="Kahlert, Ute" />
+        <SPUser UserLogin="PEP\ekowalski" DisplayName="Kowalski, Elke" />
+        <SPUser UserLogin="PEP\mlebrun" DisplayName="Lebrun, Marion" />
+        <SPUser UserLogin="PEP\dmaras" DisplayName="Maras, Dorthe" />
+        <SPUser UserLogin="PEP\dmauß" DisplayName="Mauß, Dana" />
+        <SPUser UserLogin="PEP\mmütherich" DisplayName="Mütherich, Michaela" />
+        <SPUser UserLogin="PEP\aneumann" DisplayName="Neumann, Ariane" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\mreder" DisplayName="Reder, Marzena" />
+        <SPUser UserLogin="PEP\treimers" DisplayName="Reimers, Tatjana" />
+        <SPUser UserLogin="PEP\sswailem" DisplayName="Swailem, Sabrina" />
+        <SPUser UserLogin="PEP\svondorsten" DisplayName="Von Dorsten, Sabine" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD LS EL" Owner="PEP\lehmann">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD LS TL" Owner="PEP\rnelle">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\cdresse" DisplayName="Dresse, Christa" />
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\tkaiser" DisplayName="Kaiser, Tabea" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD QM Lüdenscheid Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\cdresse" DisplayName="Dresse, Christa" />
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD Reporting" Owner="PEP\lehmann">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\sbreuer" DisplayName="Breuer, Stefan" />
+        <SPUser UserLogin="PEP\CDaute" DisplayName="Daute, Constanze" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD SG AMD Team" Owner="PEP\lehmann">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\AMDteam1" DisplayName="Team1, AMD" />
+        <SPUser UserLogin="PEP\AMDteam2" DisplayName="Team2, AMD" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD SG Bezugspflege" Owner="PEP\lehmann">
+      <SPUsers Count="14">
+        <SPUser UserLogin="PEP\aahrens" DisplayName="Ahrens, Andrea" />
+        <SPUser UserLogin="PEP\marmbruster" DisplayName="Armbruster, Matthias" />
+        <SPUser UserLogin="PEP\kaubke" DisplayName="Aubke, Katrin" />
+        <SPUser UserLogin="PEP\nberkey" DisplayName="Berkey, Nelee" />
+        <SPUser UserLogin="PEP\jbüchter" DisplayName="Büchter, Josefine" />
+        <SPUser UserLogin="PEP\scaruso" DisplayName="Caruso, Sandra" />
+        <SPUser UserLogin="PEP\EGlatz" DisplayName="Glatz, Elena" />
+        <SPUser UserLogin="PEP\ehonig" DisplayName="Honig, Elke" />
+        <SPUser UserLogin="PEP\akonkel" DisplayName="Konkel, Alexandra" />
+        <SPUser UserLogin="PEP\dluketic" DisplayName="Luketic, Denis" />
+        <SPUser UserLogin="PEP\cmettelsiefen" DisplayName="Mettelsiefen, Charlotte" />
+        <SPUser UserLogin="PEP\eschmitz" DisplayName="Schmitz, Ellen" />
+        <SPUser UserLogin="PEP\ewegener" DisplayName="Wegener, Esther" />
+        <SPUser UserLogin="PEP\wiese" DisplayName="Wiese, Karen" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD SG EL" Owner="PEP\lehmann">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\kollbach" DisplayName="Kollbach, Hildegard" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD SG öffentliche Rechner" Owner="PEP\lehmann">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\AMDteam1" DisplayName="Team1, AMD" />
+        <SPUser UserLogin="PEP\AMDteam2" DisplayName="Team2, AMD" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD SG QM" Owner="PEP\lehmann">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\hklapper" DisplayName="Klapper, Heike" />
+        <SPUser UserLogin="PEP\kollbach" DisplayName="Kollbach, Hildegard" />
+        <SPUser UserLogin="PEP\sschigelski" DisplayName="Schigelski, Sonja" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD SG TL" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\bdanzerregelin" DisplayName="Danzer Regelin, Bettina" />
+        <SPUser UserLogin="PEP\kehlert" DisplayName="Ehlert, Kerstin" />
+        <SPUser UserLogin="PEP\khammel" DisplayName="Hammel, Kornelia" />
+        <SPUser UserLogin="PEP\hklapper" DisplayName="Klapper, Heike" />
+        <SPUser UserLogin="PEP\sschigelski" DisplayName="Schigelski, Sonja" />
+        <SPUser UserLogin="PEP\cschoeller" DisplayName="Schöller, Christiane" />
+        <SPUser UserLogin="PEP\ctofahrn" DisplayName="Tofahrn, Christina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD SI Bezugspflege" Owner="PEP\rnelle">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\PGonska" DisplayName="Gonska, Petra" />
+        <SPUser UserLogin="PEP\MHerbener-Kopp" DisplayName="Herbener-Kopp, Martina" />
+        <SPUser UserLogin="PEP\ahütwohl" DisplayName="Hütwohl, Antja" />
+        <SPUser UserLogin="PEP\BIrle" DisplayName="Irle, Bianca" />
+        <SPUser UserLogin="PEP\SSahm" DisplayName="Sahm, Susanne" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AD SI EL" Owner="PEP\lehmann">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\mbenkner" DisplayName="Benkner, Michael" />
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\kschwarzfärber" DisplayName="Schwarzfärber, Karin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Aktuelles Autoren" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\bertrams" DisplayName="Bertrams-Schloeter, Susanne" />
+        <SPUser UserLogin="PEP\rbuntrock" DisplayName="Buntrock, Rebecca" />
+        <SPUser UserLogin="PEP\AEmmerich" DisplayName="Emmerich, Annette" />
+        <SPUser UserLogin="PEP\cmiltz" DisplayName="Miltz, Carla" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Aktuelles Terminverwalter" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="10">
+        <SPUser UserLogin="PEP\bertrams" DisplayName="Bertrams-Schloeter, Susanne" />
+        <SPUser UserLogin="PEP\rbuntrock" DisplayName="Buntrock, Rebecca" />
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\ukühn" DisplayName="Kühn, Ulrich" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\cmiltz" DisplayName="Miltz, Carla" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG APPS Mediathek" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ukühn" DisplayName="Kühn, Ulrich" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AUD Solingen SZ" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG AUD Solinger" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG AVR Gehaltsrechner Besucher" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\oimhof" DisplayName="Imhof, Otto" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\grp mav sg" DisplayName="PEP\mav" />
+        <SPUser UserLogin="PEP\erieger" DisplayName="Rieger, Eckhard" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG AVR Gehaltsrechner Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="31">
+        <SPUser UserLogin="PEP\bertram" DisplayName="Bertram, Irmgard" />
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\mfischer" DisplayName="Fischer, Marc" />
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\bhalbach" DisplayName="Halbach, Beate" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\oimhof" DisplayName="Imhof, Otto" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\kallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\schneider" DisplayName="MAV" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\münter" DisplayName="Münter, Roland" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\grp sz pdl" DisplayName="PEP\grp ah pdl" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\CReichmann" DisplayName="Reichmann, Carmen" />
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+        <SPUser UserLogin="PEP\nschmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\aschneider" DisplayName="Schneider, Mav Andreas" />
+        <SPUser UserLogin="PEP\schönknecht" DisplayName="Schönknecht, Beate" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+        <SPUser UserLogin="PEP\mwingert" DisplayName="Wingert, Martina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte AD Dortmund" Owner="PEP\ameier">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\apolentz" DisplayName="Polentz, Alexandra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte AD Iserlohn" Owner="PEP\ameier">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\tkaiser" DisplayName="Kaiser, Tabea" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\apolentz" DisplayName="Polentz, Alexandra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte AD Solingen" Owner="PEP\ameier">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\kollbach" DisplayName="Kollbach, Hildegard" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\wiese" DisplayName="Wiese, Karen" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte APH Kronberg" Owner="PEP\ameier">
+      <SPUsers Count="14">
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\shille" DisplayName="Hille-Zauberys, Simone" />
+        <SPUser UserLogin="PEP\jkaiser" DisplayName="Kaiser, Jan" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\dlenz" DisplayName="Lenz, Daniela" />
+        <SPUser UserLogin="PEP\clenz-heuser" DisplayName="Lenz-Heuser, Cornelia" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\mmoulding" DisplayName="Moulding, Miriam" />
+        <SPUser UserLogin="PEP\bmüller" DisplayName="Müller, Birgit" />
+        <SPUser UserLogin="PEP\mniessner" DisplayName="Niessner, Michael" />
+        <SPUser UserLogin="PEP\ppfeiffer" DisplayName="Pfeiffer, Petra" />
+        <SPUser UserLogin="PEP\ureeh" DisplayName="Reeh, Ute" />
+        <SPUser UserLogin="PEP\dschneider" DisplayName="Schneider, Daniela" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte Haus Magnolie (SG SZ)" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wheisenberg" DisplayName="Heisenberg, Werner" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte Intensivpflege Bethanien" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\pkallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\jschumann" DisplayName="Schumann, Julia" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte Krankenhaus Solingen" Owner="PEP\ameier">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\rgross" DisplayName="Gross, Roswitha" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\jostermeier" DisplayName="Ostermeier, Jörn" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte Seniorenzentrum Halver" Owner="PEP\ameier">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SG SZ Haus Ahorn" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\tjaeger" DisplayName="Jäger, Tim" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\dseidenstein" DisplayName="Seidenstein, Dimitry" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SG SZ Haus Buche" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\lhermes" DisplayName="Hermes, Lena" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\nschmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\huszkoreit" DisplayName="Uszkoreit, Helma" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SG SZ Haus Eiche" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\ydaneva" DisplayName="Daneva, Yvonna" />
+        <SPUser UserLogin="PEP\SFindeisen" DisplayName="Findeisen, Sara" />
+        <SPUser UserLogin="PEP\hihle" DisplayName="Ihle, Hannelore" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\mkosian" DisplayName="Kosian, Martin" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SG SZ Haus Magnolie" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\cfischer" DisplayName="Fischer, Claudia" />
+        <SPUser UserLogin="PEP\dmunkel" DisplayName="Munkel, Daniela" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SG SZ Tagespflege" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\agnetameier" DisplayName="Meier, Agneta" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SG WD Einkauf" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klewinghaus" DisplayName="Klewinghaus, Jutta" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SG WD Lager-Transport" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\tofahrn" DisplayName="Tofahrn, Armin" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SG WD Wäscheservice" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Berechtigte SG WD Zentralküche" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\knöppel" DisplayName="Knöppel, Bettina" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte SZ Halver" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Berechtigte Testgruppe" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Berechtigte Verwaltung SG" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG bzb Anmelder" Owner="PEP\rnelle">
+      <SPUsers Count="32">
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\efranz" DisplayName="Franz, Elisabeth" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\henningsen" DisplayName="Henningsen, Ute" />
+        <SPUser UserLogin="PEP\lhermes" DisplayName="Hermes, Lena" />
+        <SPUser UserLogin="PEP\oimhof" DisplayName="Imhof, Otto" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\kallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\münter" DisplayName="Münter, Roland" />
+        <SPUser UserLogin="PEP\mneugebauer" DisplayName="Neugebauer, Malte" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\grp sz tl" DisplayName="PEP\grp ah teamleitung" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\erieger" DisplayName="Rieger, Eckhard" />
+        <SPUser UserLogin="PEP\jrockhoff" DisplayName="Rockhoff, Jens" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\nschmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\jschumann" DisplayName="Schumann, Julia" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG bzb EL AD Solingen" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG bzb EL EW SZ" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG bzb EL FSA SG" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG bzb EL Halver SZ" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG bzb EL SG KH" Owner="PEP\rnelle">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\wranderath" DisplayName="Randerath, Winfried" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG bzb EL SG SZ" Owner="PEP\rnelle">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\henningsen" DisplayName="Henningsen, Ute" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG bzb Verwalter" Owner="PEP\rnelle">
+      <SPUsers Count="9">
+        <SPUser UserLogin="PEP\hbärenfeld" DisplayName="Bärenfeld, Heike" />
+        <SPUser UserLogin="PEP\abeck" DisplayName="Beck, Annika" />
+        <SPUser UserLogin="PEP\mfehler" DisplayName="Fehler, Marianne" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+        <SPUser UserLogin="PEP\hortmann" DisplayName="Ortmann, Hildegund" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\sschrader" DisplayName="Schrader, Simone" />
+        <SPUser UserLogin="PEP\ksobiech" DisplayName="Sobiech, Karla" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG DemoQM Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG DemoQM Mitglieder" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Developer" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Einrichtung bzb Besucher" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\mfehler" DisplayName="Fehler, Marianne" />
+        <SPUser UserLogin="PEP\sschrader" DisplayName="Schrader, Simone" />
+        <SPUser UserLogin="PEP\ksobiech" DisplayName="Sobiech, Karla" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Einrichtung bzb Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\NBohr" DisplayName="Bohr, Nils" />
+        <SPUser UserLogin="PEP\mfehler" DisplayName="Fehler, Marianne" />
+        <SPUser UserLogin="PEP\grp bildungszentrum bethanien" DisplayName="PEP\grp bildungszentrum bethanien" />
+        <SPUser UserLogin="PEP\sschrader" DisplayName="Schrader, Simone" />
+        <SPUser UserLogin="PEP\ksobiech" DisplayName="Sobiech, Karla" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Einrichtung Dessau Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Einrichtung Dessau Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\kbreuer" DisplayName="Breuer, Katharina" />
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+        <SPUser UserLogin="PEP\kreuter" DisplayName="Reuter, Kerstin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Einrichtungen EW Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Einrichtungen EW PowerUser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\bmüller" DisplayName="Müller, Birgit" />
+        <SPUser UserLogin="PEP\MSuck" DisplayName="Suck, Maya" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Einrichtungen EW Reparaturauftragnehmer" Owner="PEP\rnelle">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\steffenbecker" DisplayName="Becker, Steffen" />
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Einrichtungen SZ SG Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\grp sz pdl sharepoint" DisplayName="PEP\grp sz pdl sharepoint" />
+        <SPUser UserLogin="PEP\grp sz tl sharepoint" DisplayName="PEP\grp sz tl sharepoint" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG EinrichtungsAbt berechtigt RNE Test" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG EW Fahrdienst Auftraggeber" Owner="PEP\ameier" />
+    <SPGroup Name="SPG EW FoBi Mitwirker" Owner="PEP\ameier">
+      <SPUsers Count="12">
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\khardt" DisplayName="Hardt, Katja" />
+        <SPUser UserLogin="PEP\ghenrich" DisplayName="Henrich, Gregor" />
+        <SPUser UserLogin="PEP\shille" DisplayName="Hille-Zauberys, Simone" />
+        <SPUser UserLogin="PEP\jkaiser" DisplayName="Kaiser, Jan" />
+        <SPUser UserLogin="PEP\clenz-heuser" DisplayName="Lenz-Heuser, Cornelia" />
+        <SPUser UserLogin="PEP\mmoulding" DisplayName="Moulding, Miriam" />
+        <SPUser UserLogin="PEP\bmüller" DisplayName="Müller, Birgit" />
+        <SPUser UserLogin="PEP\mniessner" DisplayName="Niessner, Michael" />
+        <SPUser UserLogin="PEP\ppfeiffer" DisplayName="Pfeiffer, Petra" />
+        <SPUser UserLogin="PEP\ureeh" DisplayName="Reeh, Ute" />
+        <SPUser UserLogin="PEP\dschneider" DisplayName="Schneider, Daniela" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG FoBi bzb Development (Archiv) Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG FoBi bzb Development (Archiv) Mitglieder" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG FSA Entwerfer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\tgoeke" DisplayName="Goeke, Tanja" />
+        <SPUser UserLogin="PEP\ubongard" DisplayName="Rudoba-Bongard, Ute" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG FSA Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\SBecker-Streiß" DisplayName="Becker-Streiß, Susanne" />
+        <SPUser UserLogin="PEP\fsasekretariat" DisplayName="Fachseminar, Sekretariat" />
+        <SPUser UserLogin="PEP\tgoeke" DisplayName="Goeke, Tanja" />
+        <SPUser UserLogin="PEP\ubongard" DisplayName="Rudoba-Bongard, Ute" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+        <SPUser UserLogin="PEP\rwiehe" DisplayName="Wiehe, Renate" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG FSA QM" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\SBecker-Streiß" DisplayName="Becker-Streiß, Susanne" />
+        <SPUser UserLogin="PEP\fsasekretariat" DisplayName="Fachseminar, Sekretariat" />
+        <SPUser UserLogin="PEP\tgoeke" DisplayName="Goeke, Tanja" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+        <SPUser UserLogin="PEP\rwiehe" DisplayName="Wiehe, Renate" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG FSA Reporting" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\sbreuer" DisplayName="Breuer, Stefan" />
+        <SPUser UserLogin="PEP\mgertjejanßen" DisplayName="Gertjejanßen, Marcus" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Fuhrparkverwaltung Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Fuhrparkverwaltung Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\benutzer5" DisplayName="Benutzer5" />
+        <SPUser UserLogin="PEP\Benutzer6" DisplayName="Benutzer6" />
+        <SPUser UserLogin="PEP\krieger" DisplayName="Krieger, Hermann" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\dschulze" DisplayName="Schulze, Daniel" />
+        <SPUser UserLogin="PEP\tofahrn" DisplayName="Tofahrn, Armin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Groups Fahrdienstaufträge Ersteller" Owner="PEP\rnelle">
+      <SPUsers Count="63">
+        <SPUser UserLogin="PEP\ahorn11" DisplayName="Ahorn Wohngruppe11" />
+        <SPUser UserLogin="PEP\ahorn12" DisplayName="Ahorn Wohngruppe12" />
+        <SPUser UserLogin="PEP\a5wg2" DisplayName="Ahorn Wohngruppe2" />
+        <SPUser UserLogin="PEP\a5wg22" DisplayName="Ahorn Wohngruppe22" />
+        <SPUser UserLogin="PEP\a5wg3" DisplayName="Ahorn Wohngruppe3" />
+        <SPUser UserLogin="PEP\a5wg32" DisplayName="Ahorn Wohngruppe32" />
+        <SPUser UserLogin="PEP\a5wg33" DisplayName="Ahorn Wohngruppe33" />
+        <SPUser UserLogin="PEP\a5wgeg1" DisplayName="Ahorn WohngruppeEG1" />
+        <SPUser UserLogin="PEP\a5wgeg2" DisplayName="Ahorn WohngruppeEG2" />
+        <SPUser UserLogin="PEP\ahorn13" DisplayName="Ahron Wohngruppe13" />
+        <SPUser UserLogin="PEP\bezugsgruppe" DisplayName="bezugsgruppe," />
+        <SPUser UserLogin="PEP\dbruetzel" DisplayName="Brützel, Diana" />
+        <SPUser UserLogin="PEP\a4eg" DisplayName="Buche, EG" />
+        <SPUser UserLogin="PEP\a4st1" DisplayName="Buche Wohngruppe1" />
+        <SPUser UserLogin="PEP\a4st12" DisplayName="Buche Wohngruppe12" />
+        <SPUser UserLogin="PEP\a4st2" DisplayName="Buche Wohngruppe2" />
+        <SPUser UserLogin="PEP\a4st22" DisplayName="Buche Wohngruppe22" />
+        <SPUser UserLogin="PEP\a4st3" DisplayName="Buche Wohngruppe3" />
+        <SPUser UserLogin="PEP\a4st32" DisplayName="Buche Wohngruppe32" />
+        <SPUser UserLogin="PEP\a4st33" DisplayName="Buche Wohngruppe33" />
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\reckstein" DisplayName="Eckstein, Roberto" />
+        <SPUser UserLogin="PEP\oase" DisplayName="Eiche Pflegeoase," />
+        <SPUser UserLogin="PEP\eiche356" DisplayName="Eiche Therapie," />
+        <SPUser UserLogin="PEP\a3wg1" DisplayName="Eiche Wohngruppe1 Heimaterde" />
+        <SPUser UserLogin="PEP\a3wg2" DisplayName="Eiche Wohngruppe2 Wiesengrund" />
+        <SPUser UserLogin="PEP\a3wg3" DisplayName="Eiche Wohngruppe3," />
+        <SPUser UserLogin="PEP\a3wg4" DisplayName="Eiche Wohngruppe4 Abendsonne" />
+        <SPUser UserLogin="PEP\cfischer" DisplayName="Fischer, Claudia" />
+        <SPUser UserLogin="PEP\kgettschoreck" DisplayName="Gettschoreck, Kornelia" />
+        <SPUser UserLogin="PEP\bgreiner" DisplayName="Greiner, Birgit" />
+        <SPUser UserLogin="PEP\wheisenberg" DisplayName="Heisenberg, Werner" />
+        <SPUser UserLogin="PEP\lhermes" DisplayName="Hermes, Lena" />
+        <SPUser UserLogin="PEP\hihle" DisplayName="Ihle, Hannelore" />
+        <SPUser UserLogin="PEP\ajäger" DisplayName="Jäger, Angelika" />
+        <SPUser UserLogin="PEP\tjaeger" DisplayName="Jäger, Tim" />
+        <SPUser UserLogin="PEP\rkaesbach" DisplayName="Kaesbach, Reiner" />
+        <SPUser UserLogin="PEP\kihli" DisplayName="Kihli, Olga" />
+        <SPUser UserLogin="PEP\kindel" DisplayName="Kindel, Ira" />
+        <SPUser UserLogin="PEP\leitungsteam" DisplayName="Leitungsteam" />
+        <SPUser UserLogin="PEP\a2wg" DisplayName="Magnolie Wohngruppe" />
+        <SPUser UserLogin="PEP\magnolie11" DisplayName="Magnolie, Wohngruppe11" />
+        <SPUser UserLogin="PEP\magnolie12" DisplayName="Magnolie, Wohngruppe12" />
+        <SPUser UserLogin="PEP\dmunkel" DisplayName="Munkel, Daniela" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\grp sz verwaltung" DisplayName="PEP\grp ah-verwaltung" />
+        <SPUser UserLogin="PEP\grp einkauf" DisplayName="PEP\grp einkauf" />
+        <SPUser UserLogin="PEP\jrockhoff" DisplayName="Rockhoff, Jens" />
+        <SPUser UserLogin="PEP\sschleuer" DisplayName="Schleuer, Sascha" />
+        <SPUser UserLogin="PEP\sschuch" DisplayName="Schuch, Sarah" />
+        <SPUser UserLogin="PEP\jschumann" DisplayName="Schumann, Julia" />
+        <SPUser UserLogin="PEP\dseidenstein" DisplayName="Seidenstein, Dimitry" />
+        <SPUser UserLogin="PEP\a5team1" DisplayName="Team1, A5" />
+        <SPUser UserLogin="PEP\a5team2" DisplayName="Team2, A5" />
+        <SPUser UserLogin="PEP\a5team" DisplayName="team A5" />
+        <SPUser UserLogin="PEP\ctobschall" DisplayName="Tobschall, Claudia" />
+        <SPUser UserLogin="PEP\huszkoreit" DisplayName="Uszkoreit, Helma" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+        <SPUser UserLogin="PEP\a5wg23" DisplayName="Wohngruppe23, Ahorn" />
+        <SPUser UserLogin="PEP\a2wg2" DisplayName="wohngruppe2 EG, magnolie" />
+        <SPUser UserLogin="PEP\a5wg34" DisplayName="Wohngruppe34, Ahorn" />
+        <SPUser UserLogin="PEP\a5wgeg3" DisplayName="WohngruppeEG3, Ahorn" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Groups Fahrdienstaufträge Verwalter" Owner="PEP\rnelle">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\mgroicher" DisplayName="Groicher, Markus" />
+        <SPUser UserLogin="PEP\pkaissis" DisplayName="Kaissis, Panagiotis" />
+        <SPUser UserLogin="PEP\krieger" DisplayName="Krieger, Hermann" />
+        <SPUser UserLogin="PEP\lkuleta" DisplayName="Kuleta, Lukas" />
+        <SPUser UserLogin="PEP\dschulze" DisplayName="Schulze, Daniel" />
+        <SPUser UserLogin="PEP\dseidenstein" DisplayName="Seidenstein, Dimitry" />
+        <SPUser UserLogin="PEP\tofahrn" DisplayName="Tofahrn, Armin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Groups Patientenarchiv Bearbeiter" Owner="SHAREPOINT\system" />
+    <SPGroup Name="SPG Groups Patientenarchiv Besitzer" Owner="PEP\rnelle" />
+    <SPGroup Name="SPG Groups Patientenarchiv Leser" Owner="PEP\rnelle">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\grp kh patientenarchiv lesen" DisplayName="PEP\grp kh patientenarchiv lesen" />
+        <SPUser UserLogin="PEP\thomas" DisplayName="Thomas,Vera" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Groups Patientenarchiv Verwalter" Owner="SPG KH Intranet Besitzer">
+      <SPUsers Count="12">
+        <SPUser UserLogin="PEP\ernst" DisplayName="Ernst, Dagmar" />
+        <SPUser UserLogin="PEP\bglink" DisplayName="Glink, Bettina" />
+        <SPUser UserLogin="PEP\ugörtz" DisplayName="Görtz, Ursula" />
+        <SPUser UserLogin="PEP\cmiltz" DisplayName="Miltz, Carla" />
+        <SPUser UserLogin="PEP\imoche" DisplayName="Moche, Iris" />
+        <SPUser UserLogin="PEP\grp kh patientenarchiv schreiben" DisplayName="PEP\grp kh patientenarchiv schreiben" />
+        <SPUser UserLogin="PEP\aponteless" DisplayName="Ponteless, Andrea" />
+        <SPUser UserLogin="PEP\gpoeppel" DisplayName="Pöppel, Gabriele" />
+        <SPUser UserLogin="PEP\schlemper" DisplayName="Schlemper, Regina" />
+        <SPUser UserLogin="PEP\rschmitz" DisplayName="Schmitz, Roberta" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+        <SPUser UserLogin="PEP\gvollbach" DisplayName="Vollbach, Gabriele" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Groups Schlaflabor ReadOnly" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Groups Schlaflabor ReadWrite" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Groups Verbandsliste Alles Lesen" Owner="PEP\rnelle">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\corafischer" DisplayName="Fischer, Cora" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\schönknecht" DisplayName="Schönknecht, Beate" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Groups Verbandsliste Ersteller" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\domänen-benutzer" DisplayName="PEP\domänen-benutzer" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG GRP EDV" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\grp edv" DisplayName="PEP\grp edv" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG INFOPORTAL APPS Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG INFOPORTAL APPS Mitglieder" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Intensivpflege Bethanien Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Intensivpflege Bethanien Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\henningsen" DisplayName="Henningsen, Ute" />
+        <SPUser UserLogin="PEP\pkallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\kallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Interne Audits Mitglieder" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Interne Ausschreibungen Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Interne Ausschreibungen Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="11">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\pkugler" DisplayName="Kugler, Petra" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\münter" DisplayName="Münter, Roland" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\schönknecht" DisplayName="Schönknecht, Beate" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+        <SPUser UserLogin="PEP\mwingert" DisplayName="Wingert, Martina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG INTRANET Besitzer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\fkrause" DisplayName="Krause, Frank" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\mlohmann" DisplayName="Lohmann, Michael" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\mschwarz" DisplayName="Schwarz, Michael-Robin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG INTRANET Leser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\domänen-benutzer" DisplayName="PEP\domänen-benutzer" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Junge Leute" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wheisenberg" DisplayName="Heisenberg, Werner" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Junge Leute Leser" Owner="PEP\rnelle">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\heymann" DisplayName="Heymann, Christa" />
+        <SPUser UserLogin="PEP\ujacobs" DisplayName="Jacobs, Ute" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\schönknecht" DisplayName="Schönknecht, Beate" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Junge Leute Mitwirker" Owner="PEP\rnelle">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\heymann" DisplayName="Heymann, Christa" />
+        <SPUser UserLogin="PEP\tknabe" DisplayName="Knabe, Tobias" />
+        <SPUser UserLogin="PEP\clanger" DisplayName="Langer, Cora" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG KH AS Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="24">
+        <SPUser UserLogin="PEP\abanik" DisplayName="Blanik, Alina" />
+        <SPUser UserLogin="PEP\bbrouwer" DisplayName="Brouwer, Beate" />
+        <SPUser UserLogin="PEP\dcharanghattu" DisplayName="Charanghattu, Dennis" />
+        <SPUser UserLogin="PEP\ernst" DisplayName="Ernst, Dagmar" />
+        <SPUser UserLogin="PEP\hfriel" DisplayName="Friel, Heike" />
+        <SPUser UserLogin="PEP\bglink" DisplayName="Glink, Bettina" />
+        <SPUser UserLogin="PEP\SGöddertz" DisplayName="Göddertz, Sandra" />
+        <SPUser UserLogin="PEP\hGrbic" DisplayName="Grbic, Hannah" />
+        <SPUser UserLogin="PEP\kirstein" DisplayName="Kirstein-Krämer, Angelika" />
+        <SPUser UserLogin="PEP\alewandowski" DisplayName="Lewandowski, Anna" />
+        <SPUser UserLogin="PEP\imoche" DisplayName="Moche, Iris" />
+        <SPUser UserLogin="PEP\jostermeier" DisplayName="Ostermeier, Jörn" />
+        <SPUser UserLogin="PEP\lpielot" DisplayName="Pielot, Lidia" />
+        <SPUser UserLogin="PEP\aponteless" DisplayName="Ponteless, Andrea" />
+        <SPUser UserLogin="PEP\treinel" DisplayName="Reinel, Thomas" />
+        <SPUser UserLogin="PEP\schlemper" DisplayName="Schlemper, Regina" />
+        <SPUser UserLogin="PEP\wschloeßer" DisplayName="Schloeßer, Wencke" />
+        <SPUser UserLogin="PEP\mschönhoff" DisplayName="Schönhoff, Marion" />
+        <SPUser UserLogin="PEP\sekretariatvl" DisplayName="sekretariat vl" />
+        <SPUser UserLogin="PEP\shittu" DisplayName="Shittu, Dagmar" />
+        <SPUser UserLogin="PEP\HStange-Mylenbusch" DisplayName="Stange-Mylenbusch, Heike" />
+        <SPUser UserLogin="PEP\thomas-lücke" DisplayName="Thomas-Lücke, Petra" />
+        <SPUser UserLogin="PEP\taunger" DisplayName="Unger, Tamara" />
+        <SPUser UserLogin="PEP\tunger" DisplayName="Unger, Tatjana" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG KH Intranet Besitzer" Owner="PEP\rnelle">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\grp kh intranet besitzer" DisplayName="PEP\grp kh intranet besitzer" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG KH LuKS" Owner="PEP\ameier">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\kaminsky" DisplayName="Britta Kaminsky" />
+        <SPUser UserLogin="PEP\khellmessen" DisplayName="Hellmessen, Kathrin" />
+        <SPUser UserLogin="PEP\pmadel" DisplayName="Madel, Petra" />
+        <SPUser UserLogin="PEP\asteinbrecher" DisplayName="Steinbrecher, Andre" />
+        <SPUser UserLogin="PEP\thomas" DisplayName="Thomas,Vera" />
+        <SPUser UserLogin="PEP\evoigthaus" DisplayName="Voigthaus, Elina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG KH LuKS Vorstand" Owner="PEP\asteinbrecher">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\hagmeyer" DisplayName="Hagmeyer, Lars" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\ALeuchtweis" DisplayName="Leuchtweis, Anna" />
+        <SPUser UserLogin="PEP\cmiltz" DisplayName="Miltz, Carla" />
+        <SPUser UserLogin="PEP\wranderath" DisplayName="Randerath, Winfried" />
+        <SPUser UserLogin="PEP\asteinbrecher" DisplayName="Steinbrecher, Andre" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG KH Risikomanagement" Owner="PEP\asteinbrecher">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\asteinbrecher" DisplayName="Steinbrecher, Andre" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG KH Station3 Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG KH Station3 Mitglieder" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Krankenhaus Besucher" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="12">
+        <SPUser UserLogin="PEP\ernst" DisplayName="Ernst, Dagmar" />
+        <SPUser UserLogin="PEP\bglink" DisplayName="Glink, Bettina" />
+        <SPUser UserLogin="PEP\ugörtz" DisplayName="Görtz, Ursula" />
+        <SPUser UserLogin="PEP\cmiltz" DisplayName="Miltz, Carla" />
+        <SPUser UserLogin="PEP\grp kh patientenarchiv lesen" DisplayName="PEP\grp kh patientenarchiv lesen" />
+        <SPUser UserLogin="PEP\grp kh patientenarchiv schreiben" DisplayName="PEP\grp kh patientenarchiv schreiben" />
+        <SPUser UserLogin="PEP\grp kh visis-user" DisplayName="PEP\grp kh visis-user" />
+        <SPUser UserLogin="PEP\aponteless" DisplayName="Ponteless, Andrea" />
+        <SPUser UserLogin="PEP\gpoeppel" DisplayName="Pöppel, Gabriele" />
+        <SPUser UserLogin="PEP\schlemper" DisplayName="Schlemper, Regina" />
+        <SPUser UserLogin="PEP\sekretariatvl" DisplayName="sekretariat vl" />
+        <SPUser UserLogin="PEP\gvollbach" DisplayName="Vollbach, Gabriele" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Krankenhaus Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\treinel" DisplayName="Reinel, Thomas" />
+        <SPUser UserLogin="PEP\asteinbrecher" DisplayName="Steinbrecher, Andre" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Mitarbeiterpunkte Besucher" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\wheisenberg" DisplayName="Heisenberg, Werner" />
+        <SPUser UserLogin="PEP\blier" DisplayName="Lier, Brigitte" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Mitarbeiterpunkte Mitglieder" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG MK ASA" Owner="PEP\ameier">
+      <SPUsers Count="12">
+        <SPUser UserLogin="PEP\bhein" DisplayName="Hein, Beate" />
+        <SPUser UserLogin="PEP\clanger" DisplayName="Langer, Cora" />
+        <SPUser UserLogin="PEP\rkanzok" DisplayName="MAV Reinhard Kanzok" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\kanzok" DisplayName="Reinh. Kanzok" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\fsteinbrink" DisplayName="Steinbrink, Frank" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\gwans" DisplayName="Wans, Gabriele" />
+        <SPUser UserLogin="PEP\swesterhoff" DisplayName="Westerhoff, Stephan" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG MK Schlüsselverwaltung Mitglieder" Owner="PEP\ameier">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\bschönknecht" DisplayName="Schönknecht, Bernd" />
+        <SPUser UserLogin="PEP\jschultk" DisplayName="Schultk, Johanna" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\ktobschall" DisplayName="Tobschall-Möbus, Karin" />
+        <SPUser UserLogin="PEP\swesterhoff" DisplayName="Westerhoff, Stephan" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG News Leitende Mitarbeiter Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG OneNote Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG OneNote Mitglieder" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG OWA Benutzer" Owner="PEP\ameier">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\dbruetzel" DisplayName="Brützel, Diana" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG QMB Leser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\rgross" DisplayName="Gross, Roswitha" />
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SGSZ AS" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\clanger" DisplayName="Langer, Cora" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\gunterderweide" DisplayName="Unterderweide, Günther" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SGTD Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG SGTD Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\gwans" DisplayName="Wans, Gabriele" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SIS Mitwirker" Owner="PEP\ameier" />
+    <SPGroup Name="SPG SPTaskman Besucher" Owner="PEP\ameier">
+      <SPUsers Count="29">
+        <SPUser UserLogin="PEP\mbenkner" DisplayName="Benkner, Michael" />
+        <SPUser UserLogin="PEP\NBohr" DisplayName="Bohr, Nils" />
+        <SPUser UserLogin="PEP\mfischer" DisplayName="Fischer, Marc" />
+        <SPUser UserLogin="PEP\dgernert" DisplayName="Gernert, Dorothee" />
+        <SPUser UserLogin="PEP\mhäde" DisplayName="Häde, Matthias" />
+        <SPUser UserLogin="PEP\hhaller" DisplayName="Haller, Hans-Jürgen" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\wheisenberg" DisplayName="Heisenberg, Werner" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\bkraushaar" DisplayName="Kraushaar, Bettina" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\alueg" DisplayName="Lueg, Andrea" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\goerter" DisplayName="Oerter, Gerhard" />
+        <SPUser UserLogin="PEP\apolentz" DisplayName="Polentz, Alexandra" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\CReichmann" DisplayName="Reichmann, Carmen" />
+        <SPUser UserLogin="PEP\kreuter" DisplayName="Reuter, Kerstin" />
+        <SPUser UserLogin="PEP\nschmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\lstähler" DisplayName="Stähler, Lutz" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZ MK Entwerfer" Owner="PEP\ameier" />
+    <SPGroup Name="SPG SZ MK Leitung" Owner="PEP\ameier">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZ SG Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG SZ SG Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\cgarthoff" DisplayName="Garthoff, Christiane" />
+        <SPUser UserLogin="PEP\MHerbener-Kopp" DisplayName="Herbener-Kopp, Martina" />
+        <SPUser UserLogin="PEP\BIrle" DisplayName="Irle, Bianca" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZ SG QM Beauftragte" Owner="PEP\rnelle">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK BD Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG SZMK BL Leser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="17">
+        <SPUser UserLogin="PEP\ramling" DisplayName="Amling, Renate" />
+        <SPUser UserLogin="PEP\cdittert" DisplayName="Dittert, Claudia" />
+        <SPUser UserLogin="PEP\sfreiheit" DisplayName="Freiheit, Sigrid" />
+        <SPUser UserLogin="PEP\cguentner" DisplayName="Güntner, Carsten" />
+        <SPUser UserLogin="PEP\hhimmen" DisplayName="Himmen, Heike" />
+        <SPUser UserLogin="PEP\skramer" DisplayName="Kramer, Sabine" />
+        <SPUser UserLogin="PEP\bkurze" DisplayName="Kurze, Beate" />
+        <SPUser UserLogin="PEP\blier" DisplayName="Lier, Brigitte" />
+        <SPUser UserLogin="PEP\rkanzok" DisplayName="MAV Reinhard Kanzok" />
+        <SPUser UserLogin="PEP\gmosner" DisplayName="Mosner, Gerhard" />
+        <SPUser UserLogin="PEP\kanzok" DisplayName="Reinh. Kanzok" />
+        <SPUser UserLogin="PEP\bschönknecht" DisplayName="Schönknecht, Bernd" />
+        <SPUser UserLogin="PEP\kschulte" DisplayName="Schulte, Kirsten" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\msteinbach" DisplayName="Steinbach, Michaela" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+        <SPUser UserLogin="PEP\swesterhoff" DisplayName="Westerhoff, Stephan" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK BL Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="15">
+        <SPUser UserLogin="PEP\ramling" DisplayName="Amling, Renate" />
+        <SPUser UserLogin="PEP\cdittert" DisplayName="Dittert, Claudia" />
+        <SPUser UserLogin="PEP\sfreiheit" DisplayName="Freiheit, Sigrid" />
+        <SPUser UserLogin="PEP\cguentner" DisplayName="Güntner, Carsten" />
+        <SPUser UserLogin="PEP\hhimmen" DisplayName="Himmen, Heike" />
+        <SPUser UserLogin="PEP\skramer" DisplayName="Kramer, Sabine" />
+        <SPUser UserLogin="PEP\bkurze" DisplayName="Kurze, Beate" />
+        <SPUser UserLogin="PEP\gmosner" DisplayName="Mosner, Gerhard" />
+        <SPUser UserLogin="PEP\kanzok" DisplayName="Reinh. Kanzok" />
+        <SPUser UserLogin="PEP\bschönknecht" DisplayName="Schönknecht, Bernd" />
+        <SPUser UserLogin="PEP\kschulte" DisplayName="Schulte, Kirsten" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\swesterhoff" DisplayName="Westerhoff, Stephan" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK Entwerfer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK Fortbildung Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="11">
+        <SPUser UserLogin="PEP\ramling" DisplayName="Amling, Renate" />
+        <SPUser UserLogin="PEP\cdittert" DisplayName="Dittert, Claudia" />
+        <SPUser UserLogin="PEP\cguentner" DisplayName="Güntner, Carsten" />
+        <SPUser UserLogin="PEP\blier" DisplayName="Lier, Brigitte" />
+        <SPUser UserLogin="PEP\rkanzok" DisplayName="MAV Reinhard Kanzok" />
+        <SPUser UserLogin="PEP\kanzok" DisplayName="Reinh. Kanzok" />
+        <SPUser UserLogin="PEP\kschulte" DisplayName="Schulte, Kirsten" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\msteinbach" DisplayName="Steinbach, Michaela" />
+        <SPUser UserLogin="PEP\swesterhoff" DisplayName="Westerhoff, Stephan" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK Leitung" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG SZMK TP Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\bkurze" DisplayName="Kurze, Beate" />
+        <SPUser UserLogin="PEP\kschulte" DisplayName="Schulte, Kirsten" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK Veröffentlichungen Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="14">
+        <SPUser UserLogin="PEP\ramling" DisplayName="Amling, Renate" />
+        <SPUser UserLogin="PEP\cguentner" DisplayName="Güntner, Carsten" />
+        <SPUser UserLogin="PEP\hhimmen" DisplayName="Himmen, Heike" />
+        <SPUser UserLogin="PEP\skramer" DisplayName="Kramer, Sabine" />
+        <SPUser UserLogin="PEP\bkurze" DisplayName="Kurze, Beate" />
+        <SPUser UserLogin="PEP\rkanzok" DisplayName="MAV Reinhard Kanzok" />
+        <SPUser UserLogin="PEP\gmosner" DisplayName="Mosner, Gerhard" />
+        <SPUser UserLogin="PEP\kanzok" DisplayName="Reinh. Kanzok" />
+        <SPUser UserLogin="PEP\bschönknecht" DisplayName="Schönknecht, Bernd" />
+        <SPUser UserLogin="PEP\kschulte" DisplayName="Schulte, Kirsten" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\msteinbach" DisplayName="Steinbach, Michaela" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\swesterhoff" DisplayName="Westerhoff, Stephan" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK VW Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ktobschall" DisplayName="Tobschall-Möbus, Karin" />
+        <SPUser UserLogin="PEP\wtrompeter" DisplayName="Trompeter, Walburga" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG SZMK WBL Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="9">
+        <SPUser UserLogin="PEP\acramer" DisplayName="Cramer, Anne" />
+        <SPUser UserLogin="PEP\cdittert" DisplayName="Dittert, Claudia" />
+        <SPUser UserLogin="PEP\lhauf" DisplayName="Hauf, Linda" />
+        <SPUser UserLogin="PEP\bhein" DisplayName="Hein, Beate" />
+        <SPUser UserLogin="PEP\khöhne" DisplayName="Höhne, Kyra" />
+        <SPUser UserLogin="PEP\blier" DisplayName="Lier, Brigitte" />
+        <SPUser UserLogin="PEP\gmosner" DisplayName="Mosner, Gerhard" />
+        <SPUser UserLogin="PEP\msteinbach" DisplayName="Steinbach, Michaela" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Tagespflege Mitwirker" Owner="PEP\ameier">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\mfischer" DisplayName="Fischer, Marc" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\CReichmann" DisplayName="Reichmann, Carmen" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Telefonbuch Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Telefonbuch Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="9">
+        <SPUser UserLogin="PEP\benutzer5" DisplayName="Benutzer5" />
+        <SPUser UserLogin="PEP\Benutzer6" DisplayName="Benutzer6" />
+        <SPUser UserLogin="PEP\rbuntrock" DisplayName="Buntrock, Rebecca" />
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\shollweg" DisplayName="Hollweg, Sebastian" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\alewandowski" DisplayName="Lewandowski, Anna" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Telefonbuch Mutterhaus Besucher" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\empfang" DisplayName="Empfang" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\krieger" DisplayName="Krieger, Hermann" />
+        <SPUser UserLogin="PEP\dschulze" DisplayName="Schulze, Daniel" />
+        <SPUser UserLogin="PEP\tofahrn" DisplayName="Tofahrn, Armin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Telefonbuch Mutterhaus Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\bertrams" DisplayName="Bertrams-Schloeter, Susanne" />
+        <SPUser UserLogin="PEP\rbuntrock" DisplayName="Buntrock, Rebecca" />
+        <SPUser UserLogin="PEP\hdembowski" DisplayName="Dembowski, Hanna" />
+        <SPUser UserLogin="PEP\heymann" DisplayName="Heymann, Christa" />
+        <SPUser UserLogin="PEP\ujacobs" DisplayName="Jacobs, Ute" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG TP Mitwirker" Owner="PEP\ameier">
+      <SPUsers Count="13">
+        <SPUser UserLogin="PEP\dbruetzel" DisplayName="Brützel, Diana" />
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\mfischer" DisplayName="Fischer, Marc" />
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\MHirsch" DisplayName="Hirsch, Martina" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\dlenz" DisplayName="Lenz, Daniela" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+        <SPUser UserLogin="PEP\CReichmann" DisplayName="Reichmann, Carmen" />
+        <SPUser UserLogin="PEP\kschulte" DisplayName="Schulte, Kirsten" />
+        <SPUser UserLogin="PEP\lstähler" DisplayName="Stähler, Lutz" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Träger Leser" Owner="PEP\ameier" />
+    <SPGroup Name="SPG Träger Mitwirker" Owner="PEP\ameier">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\rbuntrock" DisplayName="Buntrock, Rebecca" />
+        <SPUser UserLogin="PEP\oimhof" DisplayName="Imhof, Otto" />
+        <SPUser UserLogin="PEP\fkrause" DisplayName="Krause, Frank" />
+        <SPUser UserLogin="PEP\rtheis" DisplayName="Theis, Rainer" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Träger Personen &amp; Funktionen Besucher" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Träger Personen &amp; Funktionen Mitglieder" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG Verbandbuch Prüfer AD Dortmund" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer AD Langeoog" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer AD Lüdenscheid" Owner="PEP\spsadmin">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\nrieger" DisplayName="Rieger, Nicole" />
+        <SPUser UserLogin="PEP\MUnger" DisplayName="Unger, Maike" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer AD Siegen" Owner="PEP\ameier">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\mbenkner" DisplayName="Benkner, Michael" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\kschwarzfärber" DisplayName="Schwarzfärber, Karin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer Berghof Bethanien" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Bethanien mobil Solingen" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer bzb" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Fachseminar" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Ferien- und Tagungszentrum Langeoog" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Intensivpflege Bethanien" Owner="PEP\ameier">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\pkallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\ruphoff" DisplayName="Uphoff, Regina" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer IT" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Krankenhaus Bethanien" Owner="PEP\rnelle">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\wranderath" DisplayName="Randerath, Winfried" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer Kronberg" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\braas" DisplayName="Braas, Jörg" />
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\jkrenzer" DisplayName="Krenzer, Jörg" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer Mutterhaus" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer MVZ RS" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer MVZ SG" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer RNE Test" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer Seniorenzentrum Halver" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Serbeth" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer SG SZ (alles außer Häuser)" Owner="PEP\ameier" />
+    <SPGroup Name="SPG Verbandbuch Prüfer SG SZ Haus Ahorn" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer SG SZ Haus Buche" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\schmitz" DisplayName="Schmitz, Nicole" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer SG SZ Haus Eiche" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer SG SZ Haus Magnolie" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer SG SZ Tagespflege" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG Verbandbuch Prüfer Suchtkrankenhilfe" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Technischer Dienst" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer TP Siegen" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Wirtschaftsdienste" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG Verbandbuch Prüfer Zentralverwaltung" Owner="PEP\spsadmin" />
+    <SPGroup Name="SPG WG Schalksmühle Bezugspflege" Owner="PEP\lehmann" />
+    <SPGroup Name="SPG_BIB_MAV_Besitzer" Owner="SPG_BIB_MAV_Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\aschneider" DisplayName="Schneider, Mav Andreas" />
+        <SPUser UserLogin="PEP\MAVMSchwarz" DisplayName="Schwarz, MAV Michael" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_BIB_MAV_Mitwirker" Owner="SPG_BIB_MAV_Besitzer">
+      <SPUsers Count="8">
+        <SPUser UserLogin="PEP\grp mav dessau" DisplayName="PEP\grp mav dessau" />
+        <SPUser UserLogin="PEP\grp mav do" DisplayName="PEP\grp mav do" />
+        <SPUser UserLogin="PEP\grp mav ew" DisplayName="PEP\grp mav ew" />
+        <SPUser UserLogin="PEP\grp mav gesamt" DisplayName="PEP\grp mav gesamt" />
+        <SPUser UserLogin="PEP\grp mav hv" DisplayName="PEP\grp mav hv" />
+        <SPUser UserLogin="PEP\grp mav langeoog" DisplayName="PEP\grp mav langeoog" />
+        <SPUser UserLogin="PEP\grp mav lüd" DisplayName="PEP\grp mav lüd" />
+        <SPUser UserLogin="PEP\grp mav sg" DisplayName="PEP\mav" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_BIB_MAV_Wirtschaftsausschuss_Mitwirker" Owner="SPG_BIB_MAV_Besitzer" />
+    <SPGroup Name="SPG_Bibliothek_BibWirtschaftsdienste_Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\klewinghaus" DisplayName="Klewinghaus, Jutta" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\tofahrn" DisplayName="Tofahrn, Armin" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_DO_Leser" Owner="PEP\lehmann" />
+    <SPGroup Name="SPG_FoBi_Ewersbach_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_FoBi_Ewersbach_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_FoBi_SGSZ_Leser" Owner="PEP\ameier">
+      <SPUsers Count="14">
+        <SPUser UserLogin="PEP\acalcagnile" DisplayName="Calcagnile, Alessandra" />
+        <SPUser UserLogin="PEP\reckstein" DisplayName="Eckstein, Roberto" />
+        <SPUser UserLogin="PEP\cfischer" DisplayName="Fischer, Claudia" />
+        <SPUser UserLogin="PEP\kgettschoreck" DisplayName="Gettschoreck, Kornelia" />
+        <SPUser UserLogin="PEP\lhermes" DisplayName="Hermes, Lena" />
+        <SPUser UserLogin="PEP\hihle" DisplayName="Ihle, Hannelore" />
+        <SPUser UserLogin="PEP\ajäger" DisplayName="Jäger, Angelika" />
+        <SPUser UserLogin="PEP\tjaeger" DisplayName="Jäger, Tim" />
+        <SPUser UserLogin="PEP\agnetameier" DisplayName="Meier, Agneta" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\aschäfer" DisplayName="Schäfer-Pöchmann, Angelika" />
+        <SPUser UserLogin="PEP\dseidenstein" DisplayName="Seidenstein, Dimitry" />
+        <SPUser UserLogin="PEP\ctobschall" DisplayName="Tobschall, Claudia" />
+        <SPUser UserLogin="PEP\huszkoreit" DisplayName="Uszkoreit, Helma" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_FoBi2_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_FoBi2_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Group_Handy_Leser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\hentschel" DisplayName="Hentschel, Sabine" />
+        <SPUser UserLogin="PEP\sschmidthaus" DisplayName="Schmidthaus, Sabine" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Group_Handy_Mitarbeiter" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\klewinghaus" DisplayName="Klewinghaus, Jutta" />
+        <SPUser UserLogin="PEP\fkrause" DisplayName="Krause, Frank" />
+        <SPUser UserLogin="PEP\slimbach" DisplayName="Limbach, Silvia" />
+        <SPUser UserLogin="PEP\mlohmann" DisplayName="Lohmann, Michael" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\mschwarz" DisplayName="Schwarz, Michael-Robin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Group_Schnittstelle_EinkaufIT_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Group_Schnittstelle_EinkaufIT_Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_GROUPS_ASA_Besitzer" Owner="SPG_GROUPS_ASA_Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\mehm" DisplayName="Ehm, Marcel" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_GROUPS_ASA_Mitwirker" Owner="PEP\ameier">
+      <SPUsers Count="28">
+        <SPUser UserLogin="PEP\hfriel" DisplayName="Friel, Heike" />
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\sgran" DisplayName="Gran, Steffen" />
+        <SPUser UserLogin="PEP\henningsen" DisplayName="Henningsen, Ute" />
+        <SPUser UserLogin="PEP\heymann" DisplayName="Heymann, Christa" />
+        <SPUser UserLogin="PEP\dkirchhof" DisplayName="Kirchhof, Dieter" />
+        <SPUser UserLogin="PEP\knöppel" DisplayName="Knöppel, Bettina" />
+        <SPUser UserLogin="PEP\mavkrupp" DisplayName="Krupp, MAV Petra" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\clanger" DisplayName="Langer, Cora" />
+        <SPUser UserLogin="PEP\lehmann" DisplayName="Lehmann, Sabine" />
+        <SPUser UserLogin="PEP\alewandowski" DisplayName="Lewandowski, Anna" />
+        <SPUser UserLogin="PEP\agnetameier" DisplayName="Meier, Agneta" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\moberkersch" DisplayName="Oberkersch, Monika" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\treinel" DisplayName="Reinel, Thomas" />
+        <SPUser UserLogin="PEP\erieger" DisplayName="Rieger, Eckhard" />
+        <SPUser UserLogin="PEP\rudoba-bongard" DisplayName="Rudoba-Bongard, Ute" />
+        <SPUser UserLogin="PEP\sschäfer" DisplayName="Schäfer, Sylke" />
+        <SPUser UserLogin="PEP\wschloeßer" DisplayName="Schloeßer, Wencke" />
+        <SPUser UserLogin="PEP\gunterderweide" DisplayName="Unterderweide, Günther" />
+        <SPUser UserLogin="PEP\huzozie" DisplayName="Uzozie, Adelheid" />
+        <SPUser UserLogin="PEP\mavuzozie" DisplayName="Uzozie, MAV Heidel" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+        <SPUser UserLogin="PEP\gwans" DisplayName="Wans, Gabriele" />
+        <SPUser UserLogin="PEP\wiese" DisplayName="Wiese, Karen" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Groups_Berghof_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_Berghof_Verwalter" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\mhäde" DisplayName="Häde, Matthias" />
+        <SPUser UserLogin="PEP\eoerter" DisplayName="Oerter, Edith" />
+        <SPUser UserLogin="PEP\goerter" DisplayName="Oerter, Gerhard" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Groups_Controlling_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_controlling_Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\sbreuer" DisplayName="Breuer, Stefan" />
+        <SPUser UserLogin="PEP\mgertjejanßen" DisplayName="Gertjejanßen, Marcus" />
+        <SPUser UserLogin="PEP\erieger" DisplayName="Rieger, Eckhard" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Groups_Krankenhaus_Leser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="9">
+        <SPUser UserLogin="PEP\bglink" DisplayName="Glink, Bettina" />
+        <SPUser UserLogin="PEP\ugörtz" DisplayName="Görtz, Ursula" />
+        <SPUser UserLogin="PEP\bjainta" DisplayName="Jainta, Beate" />
+        <SPUser UserLogin="PEP\imoche" DisplayName="Moche, Iris" />
+        <SPUser UserLogin="PEP\aponteless" DisplayName="Ponteless, Andrea" />
+        <SPUser UserLogin="PEP\gpoeppel" DisplayName="Pöppel, Gabriele" />
+        <SPUser UserLogin="PEP\schlemper" DisplayName="Schlemper, Regina" />
+        <SPUser UserLogin="PEP\rschmitz" DisplayName="Schmitz, Roberta" />
+        <SPUser UserLogin="PEP\gvollbach" DisplayName="Vollbach, Gabriele" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Groups_Krankenhaus_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_Schnittstelle_SZ-IT_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_Schnittstelle_SZ-IT_Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\mschwarz" DisplayName="Schwarz, Michael-Robin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Groups_Schnittstellen_Einkauf-Klinik_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_Schnittstellen_Einkauf-Klinik_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_Schnittstellen_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_Schnittstellen_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_Team_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Groups_Team_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Intranet_Rep_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Intranet_Rep_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Langeoog_Entwerfer" Owner="PEP\ameier" />
+    <SPGroup Name="SPG_News_Ad_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_News_Ad_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_News_Ldk_Leser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="11">
+        <SPUser UserLogin="PEP\grp ew3" DisplayName="PEP\grp ew3" />
+        <SPUser UserLogin="PEP\grp ew bsd" DisplayName="PEP\grp ew bsd" />
+        <SPUser UserLogin="PEP\grp ewersbach pflege" DisplayName="PEP\grp ewersbach pflege" />
+        <SPUser UserLogin="PEP\grp ew hausmeister" DisplayName="PEP\grp ew hausmeister" />
+        <SPUser UserLogin="PEP\grp ew leitende ma" DisplayName="PEP\grp ew leitende ma" />
+        <SPUser UserLogin="PEP\grp ew leitung" DisplayName="PEP\grp ew leitung" />
+        <SPUser UserLogin="PEP\grp ew qm besitzer" DisplayName="PEP\grp ew qm besitzer" />
+        <SPUser UserLogin="PEP\grp ew schulung" DisplayName="PEP\grp ew schulung" />
+        <SPUser UserLogin="PEP\grp ew verwaltung" DisplayName="PEP\grp ew verwaltung" />
+        <SPUser UserLogin="PEP\grp ew wohnbereichsgruppe 1" DisplayName="PEP\grp ew wohnbereichsgruppe 1" />
+        <SPUser UserLogin="PEP\grp ew wohnbereichsgruppe 2" DisplayName="PEP\grp ew wohnbereichsgruppe 2" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_News_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_News_Mitwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="PEP\schneider" DisplayName="MAV" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\aschneider" DisplayName="Schneider, Mav Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_News_SG_KH_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_News_SG_KH_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_News_SG_Leser" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="13">
+        <SPUser UserLogin="PEP\grp muse user" DisplayName="grp Muse User" />
+        <SPUser UserLogin="PEP\grp sg fachseminar" DisplayName="grp SG Fachseminar" />
+        <SPUser UserLogin="PEP\grp sg seniorenzentrum" DisplayName="grp SG Seniorenzentrum" />
+        <SPUser UserLogin="PEP\grp sz pdl" DisplayName="PEP\grp ah pdl" />
+        <SPUser UserLogin="PEP\grp azubi verwaltung" DisplayName="PEP\grp azubi verwaltung" />
+        <SPUser UserLogin="PEP\grp bildungszentrum bethanien" DisplayName="PEP\grp bildungszentrum bethanien" />
+        <SPUser UserLogin="PEP\grp controlling" DisplayName="PEP\grp controlling" />
+        <SPUser UserLogin="PEP\grp fachseminar" DisplayName="PEP\grp fachseminar" />
+        <SPUser UserLogin="PEP\grp fachseminarschüler" DisplayName="PEP\grp fachseminarschüler" />
+        <SPUser UserLogin="PEP\grp gaestehaus" DisplayName="PEP\grp gaestehaus" />
+        <SPUser UserLogin="PEP\grp kh pep-user" DisplayName="PEP\grp kh pep-user" />
+        <SPUser UserLogin="PEP\grp kh physiotherapie" DisplayName="PEP\grp kh physiotherapie" />
+        <SPUser UserLogin="PEP\grp mav sg" DisplayName="PEP\mav" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_News_SG_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_News_SG_SZ_Leser" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_News_SG_SZ_Mitwirker" Owner="SPG INTRANET Besitzer" />
+    <SPGroup Name="SPG_Projekte_KHB_Besitzer" Owner="SPG_Projekte_KHB_Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Projekte_KHB_Leser" Owner="SPG_Projekte_KHB_Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\hagmeyer" DisplayName="Hagmeyer, Lars" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\mlohmann" DisplayName="Lohmann, Michael" />
+        <SPUser UserLogin="PEP\zmarkus" DisplayName="Markus, Zuzanna" />
+        <SPUser UserLogin="PEP\ksteinraths" DisplayName="Steinraths, Karin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Projekte_KHB_Mitwirker" Owner="SPG_Projekte_KHB_Besitzer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\aebner" DisplayName="Ebner, Alexander" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Projekte_Leser" Owner="Besitzer von Projekte">
+      <SPUsers Count="10">
+        <SPUser UserLogin="PEP\eblömeling" DisplayName="Blömeling-Bobrowska, Ewa" />
+        <SPUser UserLogin="PEP\kgoetze" DisplayName="Goetze, Kai" />
+        <SPUser UserLogin="PEP\hagmeyer" DisplayName="Hagmeyer, Lars" />
+        <SPUser UserLogin="PEP\kühn" DisplayName="Kuehn, Christiane" />
+        <SPUser UserLogin="PEP\mlohmann" DisplayName="Lohmann, Michael" />
+        <SPUser UserLogin="PEP\zmarkus" DisplayName="Markus, Zuzanna" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\ksteinraths" DisplayName="Steinraths, Karin" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Projekte_Mitwirker" Owner="Besitzer von Projekte">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\aebner" DisplayName="Ebner, Alexander" />
+        <SPUser UserLogin="PEP\hfriel" DisplayName="Friel, Heike" />
+        <SPUser UserLogin="PEP\klewinghaus" DisplayName="Klewinghaus, Jutta" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_QM_EW_Entwerfer" Owner="SPG_QM_EW_Entwerfer">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\mehm" DisplayName="Ehm, Marcel" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_QM_EW_Leser" Owner="SPG_QM_EW_Entwerfer" />
+    <SPGroup Name="SPG_QM_EW_Mitwirker" Owner="SPG_QM_EW_Entwerfer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\cherr" DisplayName="Herr, Claudia" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_QM_Halver_Besitzer" Owner="SPG_QM_Halver_Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_QM_Halver_Leser" Owner="SPG_QM_Halver_Besitzer">
+      <SPUsers Count="17">
+        <SPUser UserLogin="PEP\ramling" DisplayName="Amling, Renate" />
+        <SPUser UserLogin="PEP\dbruetzel" DisplayName="Brützel, Diana" />
+        <SPUser UserLogin="PEP\cdittert" DisplayName="Dittert, Claudia" />
+        <SPUser UserLogin="PEP\sfreiheit" DisplayName="Freiheit, Sigrid" />
+        <SPUser UserLogin="PEP\cguentner" DisplayName="Güntner, Carsten" />
+        <SPUser UserLogin="PEP\bhein" DisplayName="Hein, Beate" />
+        <SPUser UserLogin="PEP\hhimmen" DisplayName="Himmen, Heike" />
+        <SPUser UserLogin="PEP\oimhof" DisplayName="Imhof, Otto" />
+        <SPUser UserLogin="PEP\blier" DisplayName="Lier, Brigitte" />
+        <SPUser UserLogin="PEP\gmosner" DisplayName="Mosner, Gerhard" />
+        <SPUser UserLogin="PEP\grp halver" DisplayName="PEP\grp halver" />
+        <SPUser UserLogin="PEP\kanzok" DisplayName="Reinh. Kanzok" />
+        <SPUser UserLogin="PEP\kschulte" DisplayName="Schulte, Kirsten" />
+        <SPUser UserLogin="PEP\msteinbach" DisplayName="Steinbach, Michaela" />
+        <SPUser UserLogin="PEP\sthiemann" DisplayName="Thiemann, Stefanie" />
+        <SPUser UserLogin="PEP\kachunga" DisplayName="Vorstand Diakonisches Werk Bethanien" />
+        <SPUser UserLogin="PEP\swesterhoff" DisplayName="Westerhoff, Stephan" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_QM_Halver_Verwalter" Owner="SPG_QM_Halver_Besitzer">
+      <SPUsers Count="9">
+        <SPUser UserLogin="PEP\ramling" DisplayName="Amling, Renate" />
+        <SPUser UserLogin="PEP\cguentner" DisplayName="Güntner, Carsten" />
+        <SPUser UserLogin="PEP\skramer" DisplayName="Kramer, Sabine" />
+        <SPUser UserLogin="PEP\gmosner" DisplayName="Mosner, Gerhard" />
+        <SPUser UserLogin="PEP\kschulte" DisplayName="Schulte, Kirsten" />
+        <SPUser UserLogin="PEP\uschultk" DisplayName="Schultk, Ute" />
+        <SPUser UserLogin="PEP\cschumann" DisplayName="Schumann, Claudia" />
+        <SPUser UserLogin="PEP\ktobschall" DisplayName="Tobschall-Möbus, Karin" />
+        <SPUser UserLogin="PEP\swesterhoff" DisplayName="Westerhoff, Stephan" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_QM_TQM_Besitzer" Owner="SPG_QM_TQM_Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_QMSiegen_Miwirker" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="6">
+        <SPUser UserLogin="PEP\fehler" DisplayName="Fehler, Hartmut" />
+        <SPUser UserLogin="PEP\clanger" DisplayName="Langer, Cora" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\CReichmann" DisplayName="Reichmann, Carmen" />
+        <SPUser UserLogin="PEP\lstähler" DisplayName="Stähler, Lutz" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Seelsorger" Owner="PEP\ameier">
+      <SPUsers Count="3">
+        <SPUser UserLogin="PEP\hdembowski" DisplayName="Dembowski, Hanna" />
+        <SPUser UserLogin="PEP\ukühn" DisplayName="Kühn, Ulrich" />
+        <SPUser UserLogin="PEP\gmosner" DisplayName="Mosner, Gerhard" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_SGSZ_BL" Owner="PEP\ameier" />
+    <SPGroup Name="SPG_Solinger" Owner="PEP\klanger" />
+    <SPGroup Name="SPG_Support_SPSupport_Besitzer" Owner="SPG_Support_SPSupport_Besitzer">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_Support_SPSupport_Leser" Owner="SPG_Support_SPSupport_Besitzer" />
+    <SPGroup Name="SPG_Support_SPSupport_Mitwirker" Owner="SPG_Support_SPSupport_Besitzer">
+      <SPUsers Count="8">
+        <SPUser UserLogin="PEP\aebner" DisplayName="Ebner, Alexander" />
+        <SPUser UserLogin="PEP\klanger" DisplayName="Langer, Karsten" />
+        <SPUser UserLogin="PEP\slimbach" DisplayName="Limbach, Silvia" />
+        <SPUser UserLogin="PEP\mlohmann" DisplayName="Lohmann, Michael" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\DRösler" DisplayName="Rösler, Dominik" />
+        <SPUser UserLogin="PEP\hscholz" DisplayName="Scholz, Hansgeorg" />
+        <SPUser UserLogin="PEP\mschwarz" DisplayName="Schwarz, Michael-Robin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SPG_ÜberlastungSG_Mitwirker" Owner="PEP\ameier">
+      <SPUsers Count="9">
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\jezewski" DisplayName="Jezewski, Rüdiger" />
+        <SPUser UserLogin="PEP\pkallmann" DisplayName="Kallmann, Petra" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\iochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\urappen" DisplayName="Rappen, Ulla" />
+        <SPUser UserLogin="PEP\nschmitz" DisplayName="Schmitz, Nicole" />
+        <SPUser UserLogin="PEP\pverbakel" DisplayName="Verbakel, Petra" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SP-MitgliederFSA" Owner="PEP\ameier">
+      <SPUsers Count="4">
+        <SPUser UserLogin="PEP\tgoeke" DisplayName="Goeke, Tanja" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\sschrader" DisplayName="Schrader, Simone" />
+        <SPUser UserLogin="PEP\cwetter" DisplayName="Wetter, Claudia" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SZ MK FK" Owner="PEP\ameier" />
+    <SPGroup Name="SZSG QM Genehmiger" Owner="PEP\ameier">
+      <SPUsers Count="2">
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="SZSG QM Mitwirker" Owner="PEP\ameier">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\hanke" DisplayName="Hanke, Ricarda" />
+        <SPUser UserLogin="PEP\kindel" DisplayName="Kindel, Ira" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\rmeier" DisplayName="Meier, Rebekka" />
+        <SPUser UserLogin="PEP\ochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\iochse" DisplayName="Ochse, Ingeborg" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Verbandsliste-Workflowbenutzer" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="11">
+        <SPUser UserLogin="PEP\a4st1" DisplayName="Buche Wohngruppe1" />
+        <SPUser UserLogin="PEP\a4st2" DisplayName="Buche Wohngruppe2" />
+        <SPUser UserLogin="PEP\a4st22" DisplayName="Buche Wohngruppe22" />
+        <SPUser UserLogin="PEP\ameier" DisplayName="Meier, Andreas" />
+        <SPUser UserLogin="PEP\fniedernhöfer" DisplayName="Niedernhöfer, Frank" />
+        <SPUser UserLogin="PEP\wpaul" DisplayName="Paul, Wolfgang" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\wschloeßer" DisplayName="Schloeßer, Wencke" />
+        <SPUser UserLogin="PEP\mschwarz" DisplayName="Schwarz, Michael-Robin" />
+        <SPUser UserLogin="SHAREPOINT\system" DisplayName="Systemkonto" />
+        <SPUser UserLogin="PEP\tofahrn" DisplayName="Tofahrn, Armin" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Wirtschaftsdienste Bethanien Besucher" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="5">
+        <SPUser UserLogin="PEP\tfirmenich" DisplayName="Firmenich, Thomas" />
+        <SPUser UserLogin="PEP\tknabe" DisplayName="Knabe, Tobias" />
+        <SPUser UserLogin="PEP\knöppel" DisplayName="Knöppel, Bettina" />
+        <SPUser UserLogin="PEP\krieger" DisplayName="Krieger, Hermann" />
+        <SPUser UserLogin="PEP\dschulze" DisplayName="Schulze, Daniel" />
+      </SPUsers>
+    </SPGroup>
+    <SPGroup Name="Wirtschaftsdienste Bethanien Mitglieder" Owner="SPG INTRANET Besitzer">
+      <SPUsers Count="7">
+        <SPUser UserLogin="PEP\henningsen" DisplayName="Henningsen, Ute" />
+        <SPUser UserLogin="PEP\klewinghaus" DisplayName="Klewinghaus, Jutta" />
+        <SPUser UserLogin="PEP\clanger" DisplayName="Langer, Cora" />
+        <SPUser UserLogin="PEP\rnelle" DisplayName="Ralf, Nelle" />
+        <SPUser UserLogin="PEP\tofahrn" DisplayName="Tofahrn, Armin" />
+        <SPUser UserLogin="PEP\voigt" DisplayName="Voigt, Benjamin" />
+        <SPUser UserLogin="PEP\gwans" DisplayName="Wans, Gabriele" />
+      </SPUsers>
+    </SPGroup>
+  </SPGroups>
+</SPFarm>
