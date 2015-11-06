@@ -2,9 +2,10 @@
 # GetSoftwareInventory.ps1
 #
 # 	Author: INSIGMA IT Engineering GmbH, Ralf Nelle
-# 	Last Change: 05.11.2015
+# 	Last Change: 06.11.2015
 #
 
+param([switch]$CleanOnly)
 
 # ---------------------------------------------------------------------------
 #     Settings
@@ -58,13 +59,18 @@ Function Get-Operatingsystem {
 
     process {
         foreach ($Computer in $ComputerName) {
+		
+			Write-Host "Query operatingsystem on '$Computer' ... " -nonewline -fore gray		
+		
 			try { 
 				$Result = gwmi -q "SELECT Caption FROM Win32_Operatingsystem" -ComputerName $Computer -ErrorAction Stop
 				New-Object -TypeName PSCustomObject -Property @{
 				  'ComputerName' = $Computer; 'Name' = $result.Caption
 				}
 			}
-			catch { Write-Host "$($Computer): $($_.Exception.Message)" -fore red -back black } 					
+			catch { Write-Host "$($Computer): $($_.Exception.Message)" -fore red -back black } 		
+
+			Write-Host "done." -fore gray			
 		}
 	}
 }
@@ -74,91 +80,63 @@ Function Get-RemoteSoftware ($ComputerName = $ENV:COMPUTERNAME) {
 
   # Registry settings
   $HKLM = [UInt32] "0x80000002"
-  $UNINSTALL_KEY = "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"
-
-  # Create a hash table containing the requested application properties.
-  $propertyList = @{}
+  $UNINSTALL_KEYS = `
+	"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall", `
+	"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
 
   # Iterate the computer name(s).
-  foreach ($machine in $ComputerName) {
-    $err = $NULL
+  foreach ($Computer in $ComputerName) {
 
-    # If WMI throws a RuntimeException exception,
-    # save the error and continue to the next statement.
-    #CALLOUT B
-    trap [System.Management.Automation.RuntimeException] {
-      set-variable err $ERROR[0] -scope 1
-      continue
-    }
-    #END CALLOUT B
+    Write-Host "Query remote software on '$Computer' ... " -nonewline -fore gray
 
-    # Connect to the StdRegProv class on the computer.
-    #CALLOUT C
-    $regProv = [WMIClass] "\\$machine\root\default:StdRegProv"
+	try {
+		# Connect to the StdRegProv class on the computer.
+		$regProv = [WMIClass] "\\$Computer\root\default:StdRegProv"
 
-    # In case of an exception, write the error
-    # record and continue to the next computer.
-    if ($err) {
-      write-error -errorrecord $err
-      continue
-    }
-    #END CALLOUT C
+		# Enumerate the Uninstall subkey.
+		&{ 
+			foreach ($UNINSTALL_KEY in $UNINSTALL_KEYS) {
 
-    # Enumerate the Uninstall subkey.
-    $subkeys = $regProv.EnumKey($HKLM, $UNINSTALL_KEY).sNames
-    foreach ($subkey in $subkeys) {
-      # Get the application's display name.
-      $name = $regProv.GetStringValue($HKLM,
-        (join-path $UNINSTALL_KEY $subkey), "DisplayName").sValue
-      # Only continue of the application's display name isn't empty.
-      if ($name -ne $NULL) {
-        # Create an object representing the installed application.
-        $output = new-object PSObject
-        $output | add-member NoteProperty ComputerName -value $machine
-        #$output | add-member NoteProperty AppID -value $subkey
-        $output | add-member NoteProperty AppName -value $name
-        $output | add-member NoteProperty Publisher -value `
-          $regProv.GetStringValue($HKLM,
-          (join-path $UNINSTALL_KEY $subkey), "Publisher").sValue
-        $output | add-member NoteProperty Version -value `
-          $regProv.GetStringValue($HKLM,
-          (join-path $UNINSTALL_KEY $subkey), "DisplayVersion").sValue
-        # If the property list is empty, output the object;
-        # otherwise, try to match all named properties.
-        if ($propertyList.Keys.Count -eq 0) {
-          $output
-        } else {
-          #CALLOUT D
-          $matches = 0
-          foreach ($key in $propertyList.Keys) {
-            if ($output.$key -like $propertyList.$key) {
-              $matches += 1
-            }
-          }
-          # If all properties matched, output the object.
-          if ($matches -eq $propertyList.Keys.Count) {
-            $output
-            # If -matchall is missing, break out of the foreach loop.
-            if (-not $MatchAll) {
-              break
-            }
-          }
-          #END CALLOUT D
-        }
-      }
-    }
+			  $subkeys = $regProv.EnumKey($HKLM, $UNINSTALL_KEY).sNames
+			  foreach ($subkey in $subkeys) {
+			  
+				# Get the application's display name.
+				$name = $regProv.GetStringValue($HKLM,(join-path $UNINSTALL_KEY $subkey), "DisplayName").sValue
+				if ($name -ne $NULL) {
+				
+					$version = $regProv.GetStringValue($HKLM,(join-path $UNINSTALL_KEY $subkey), "DisplayVersion").sValue;
+					if ($version) { $name = "$($name) [$($version)]" }
+
+					New-Object -TypeName PSCustomObject -Property @{
+					  'ComputerName' = $Computer; 
+					  'AppName' = $name
+					  'Vendor' = $regProv.GetStringValue($HKLM,(join-path $UNINSTALL_KEY $subkey), "Publisher").sValue;
+					}
+				}
+			  }
+			}
+		} | select -Unique ComputerName,AppName,Vendor
+	}
+	catch { Write-Host "$($Computer): $($_.Exception.Message)" -fore red -back black }
+	
+	Write-Host "done." -fore gray
   }
 }
+
 
 
 # ===========================================================================
 #   MAIN
 
+if (!($CleanOnly)) {
+
 # get list from file
 if (!(Test-Path $ComputersFile)) {
-	Write-Host "'$ComputersFile' not found. Script aborted." -fore red -back black; break;
+	Write-Host "'$ComputersFile' not found. Using localhost." -fore yellow
+	[string[]]$Computers = $env:COMPUTERNAME
+} else {
+    [string[]]$Computers = gc $ComputersFile | ?{ $_ -notlike "#*" }
 }
-$Computers = gc $ComputersFile | ?{ $_ -notlike "#*" }
 
 # get exiting xml file
 if (Test-Path $XmlFile) { [xml]$Xml = gc $XmlFile }
@@ -180,6 +158,9 @@ foreach ($Result in (Get-Operatingsystem $Computers | Sort ComputerName)) {
 	$XmlComputer = New-XmlElement $XmlComputers -Name "Computer" -Attribute @{ 'Name' = $Result.ComputerName }
 	New-XmlElement $XmlComputer -Name 'Software' -InnerText $Result.Name | Out-Null
 
+	# add timestamp
+	$XmlComputer.SetAttribute("TimeStamp",(Get-Date).ToString("dd.MM.yyyy HH:mm:ss"))
+
 }
 $Xml.Save($XmlFile)
 
@@ -192,19 +173,40 @@ foreach ($Computer in $InstalledSoftware.Keys) {
 
 	Write-Host "Examing '$Computer' software ..." -fore gray
 	$XmlComputer = $Xml.SelectSingleNode("//Computer[@Name='$($Computer)']")
-	foreach ($Software in ($InstalledSoftware[$Computer] | %{ $_.AppName } | sort | Get-Unique)) {
+	foreach ($Software in ($InstalledSoftware[$Computer] | %{ $_.AppName } | sort )) {
 		New-XmlElement $XmlComputer -Name 'Software' -InnerText $Software | Out-Null
 	}
 }
 $Xml.Save($XmlFile)
+}
 	
 # clean product list 	
 if (Test-Path $NoiseProductsFile) {
-	$NoiseProducts = gc $NoiseProductsFile -Encoding String | %{ $_.trim() }
+
+	$pattern = "(" + 
+		"^(Security Update|Update|Hotfix|Definition Update|Sicherheitsupdate).*?(Microsoft|Windows)|" +
+		"^Microsoft.*?(Runtime|Compiler|Libraries|Shell|Hosting Support|Resources)|" +
+		"^(Windows Software Development Kit|German Module for Microsoft Dynamics NAV|Hotfix for Visual C)|" +
+		"^(Microsoft Office Proof|Microsoft XNA Game Studio)|" +
+		".*?(Language Pack|Redistributable)|" + 
+		"^Visual C.*?(Runtime)|" +
+		"^Microsoft\s?(\.NET|ASP\.NET)|" + 
+		"^(Adobe Flash Player|Adobe Reader|Adobe Shockwave Player)|" +
+		"^Java\s\d\sUpdate" +
+		")"
+
+	[xml]$Xml = gc $XmlFile
+	$NoiseProducts = [System.IO.File]::ReadAllText($NoiseProductsFile)
+	
 	foreach ($Software in $Xml.SelectNodes("//Software")) {
-		[string]$SwCaption = $Software."#text"
-		if ($NoiseProducts -contains $SwCaption.trim()) { 
-			[Void]$Software.ParentNode.RemoveChild($Software)
+
+		# check by pattern
+		if ($Software.InnerText -match $pattern) {
+			[void]$Software.ParentNode.RemoveChild($Software)
+
+		# check by noise product list
+		} elseif ($NoiseProducts.Contains($Software.InnerText.trim())) { 
+			[void]$Software.ParentNode.RemoveChild($Software)
 		}
 	}
 	$Xml.Save($XmlCleanFile)
