@@ -2,10 +2,10 @@
 # GetSoftwareInventory.ps1
 #
 # 	Author: INSIGMA IT Engineering GmbH, Ralf Nelle
-# 	Last Change: 06.11.2015
+# 	Last Change: 09.11.2015
 #
 
-param([switch]$CleanOnly)
+param([string[]]$ComputerName,[switch]$CleanOnly, [switch]$ShowCleanedProducts)
 
 # ---------------------------------------------------------------------------
 #     Settings
@@ -13,7 +13,8 @@ param([switch]$CleanOnly)
 $ComputersFile = $pwd.path + "\hosts.txt"
 $XmlFile = $pwd.path + "\SoftwareInv.xml"
 $XmlCleanFile = $pwd.path + "\SoftwareInv_cleaned.xml"
-$NoiseProductsFile = $pwd.path + "\NoiseProducts.txt"
+$PatternFile = $pwd.path + "\CleanPatterns.txt"
+$CleaningReportFile = $pwd.path + "\CleaningReport.txt"
 
 # prepare xml store
 [Xml]$Xml = @'
@@ -87,7 +88,7 @@ Function Get-RemoteSoftware ($ComputerName = $ENV:COMPUTERNAME) {
   # Iterate the computer name(s).
   foreach ($Computer in $ComputerName) {
 
-    Write-Host "Query remote software on '$Computer' ... " -nonewline -fore gray
+    Write-Host "Query software on '$Computer' ... " -nonewline -fore gray
 
 	try {
 		# Connect to the StdRegProv class on the computer.
@@ -105,11 +106,11 @@ Function Get-RemoteSoftware ($ComputerName = $ENV:COMPUTERNAME) {
 				if ($name -ne $NULL) {
 				
 					$version = $regProv.GetStringValue($HKLM,(join-path $UNINSTALL_KEY $subkey), "DisplayVersion").sValue;
-					if ($version) { $name = "$($name) [$($version)]" }
+					if ($version) { $name = ("{0} [{1}]" -f $name.trim(),$version.trim()) }
 
 					New-Object -TypeName PSCustomObject -Property @{
-					  'ComputerName' = $Computer; 
-					  'AppName' = $name
+					  'ComputerName' = $Computer;
+					  'AppName' = $name.trim();
 					  'Vendor' = $regProv.GetStringValue($HKLM,(join-path $UNINSTALL_KEY $subkey), "Publisher").sValue;
 					}
 				}
@@ -123,99 +124,105 @@ Function Get-RemoteSoftware ($ComputerName = $ENV:COMPUTERNAME) {
   }
 }
 
+# ---------------------------------------------------------------------------
+Function Clean-InventoryData {
+
+	if (Test-Path $PatternFile) {
+
+		# build cleaning rules
+		$pattern = "(" + ([System.IO.File]::ReadAllLines($PatternFile) -join '|') + ")"	
+
+		# clean inventory file
+		[xml]$Xml = gc $XmlFile
+		foreach ($Software in $Xml.SelectNodes("//Software")) {
+
+			# check by pattern
+			if (!($Software.InnerText) -or ($Software.InnerText -match $pattern)) {
+				[void]$Software.ParentNode.RemoveChild($Software)
+			}
+		}
+		$Xml.Save($XmlCleanFile)
+		Write-Host "Inventory result optimization done." -fore gray
+
+	} else {
+		Write-Host "Missing pattern file. Inventory result optimization skipped." -fore gray 
+	}
+}
+
+# ---------------------------------------------------------------------------
+Function Show-CleanedProducts {
+	Compare-Object (gc .\SoftwareInv.xml) (gc .\SoftwareInv_cleaned.xml) | %{ 
+		$_.InputObject.replace("<Software>","").replace("</Software>","").trim() 
+	} | sort | Get-Unique | sc $CleaningReportFile
+	notepad $CleaningReportFile
+}
+
+# ---------------------------------------------------------------------------
+Function Get-InventoryData {
+
+	# get hosts
+	if ($ComputerName) { 
+		[string[]]$Computers = $ComputerName 
+	} else { 
+		if (!(Test-Path $ComputersFile)) {
+			Write-Host "'$ComputersFile' not found. Using localhost." -fore yellow
+			[string[]]$Computers = $env:COMPUTERNAME
+		} else {
+			[string[]]$Computers = gc $ComputersFile | ?{ $_ -notlike "#*" }
+		}
+	}
+
+	# get exiting xml file
+	if (Test-Path $XmlFile) { [xml]$Xml = gc $XmlFile }
+
+	# get root note
+	$XmlComputers = $Xml.SelectSingleNode("//Computers")
+	$AvailableComputers = @()
+
+	# get operating system
+	Write-Host "Getting host OS ..." -fore gray
+	foreach ($Result in (Get-Operatingsystem $Computers | Sort ComputerName)) {
+
+		# remove existing computer node
+		$XmlComputer = $Xml.SelectSingleNode("//Computer[@Name='$($Result.ComputerName)']")
+		if ($XmlComputer) { [Void]$XmlComputer.ParentNode.RemoveChild($XmlComputer) }
+
+		# add computer node
+		$AvailableComputers += $Result.ComputerName
+		$XmlComputer = New-XmlElement $XmlComputers -Name "Computer" -Attribute @{ 'Name' = $Result.ComputerName }
+		New-XmlElement $XmlComputer -Name 'Software' -InnerText $Result.Name | Out-Null
+
+		# add timestamp
+		$XmlComputer.SetAttribute("TimeStamp",(Get-Date).ToString("dd.MM.yyyy HH:mm:ss"))
+
+	}
+	$Xml.Save($XmlFile)
+
+
+	# get details from active hosts
+	$Results = Get-RemoteSoftware $AvailableComputers
+	$InstalledSoftware = $Results | Group ComputerName -AsHashTable -AsString
+
+	foreach ($Computer in $InstalledSoftware.Keys) {
+
+		Write-Host "Examing '$Computer' software ..." -fore gray
+		$XmlComputer = $Xml.SelectSingleNode("//Computer[@Name='$($Computer)']")
+		foreach ($Software in ($InstalledSoftware[$Computer] | %{ $_.AppName } | sort | get-unique )) {
+			New-XmlElement $XmlComputer -Name 'Software' -InnerText $Software | Out-Null
+		}
+	}
+	$Xml.Save($XmlFile)
+}
 
 
 # ===========================================================================
 #   MAIN
 
-if (!($CleanOnly)) {
+if ($ShowCleanedProducts) { Show-CleanedProducts; break; }
 
-# get list from file
-if (!(Test-Path $ComputersFile)) {
-	Write-Host "'$ComputersFile' not found. Using localhost." -fore yellow
-	[string[]]$Computers = $env:COMPUTERNAME
-} else {
-    [string[]]$Computers = gc $ComputersFile | ?{ $_ -notlike "#*" }
-}
-
-# get exiting xml file
-if (Test-Path $XmlFile) { [xml]$Xml = gc $XmlFile }
-
-# get root note
-$XmlComputers = $Xml.SelectSingleNode("//Computers")
-$AvailableComputers = @()
-
-# get operating system
-Write-Host "Getting host OS ..." -fore gray
-foreach ($Result in (Get-Operatingsystem $Computers | Sort ComputerName)) {
-
-	# remove existing computer node
-	$XmlComputer = $Xml.SelectSingleNode("//Computer[@Name='$($Result.ComputerName)']")
-	if ($XmlComputer) { [Void]$XmlComputer.ParentNode.RemoveChild($XmlComputer) }
-
-	# add computer node
-	$AvailableComputers += $Result.ComputerName
-	$XmlComputer = New-XmlElement $XmlComputers -Name "Computer" -Attribute @{ 'Name' = $Result.ComputerName }
-	New-XmlElement $XmlComputer -Name 'Software' -InnerText $Result.Name | Out-Null
-
-	# add timestamp
-	$XmlComputer.SetAttribute("TimeStamp",(Get-Date).ToString("dd.MM.yyyy HH:mm:ss"))
-
-}
-$Xml.Save($XmlFile)
-
-
-# get details from active hosts
-$Results = Get-RemoteSoftware $AvailableComputers
-$InstalledSoftware = $Results | Group ComputerName -AsHashTable -AsString
-
-foreach ($Computer in $InstalledSoftware.Keys) {
-
-	Write-Host "Examing '$Computer' software ..." -fore gray
-	$XmlComputer = $Xml.SelectSingleNode("//Computer[@Name='$($Computer)']")
-	foreach ($Software in ($InstalledSoftware[$Computer] | %{ $_.AppName } | sort )) {
-		New-XmlElement $XmlComputer -Name 'Software' -InnerText $Software | Out-Null
-	}
-}
-$Xml.Save($XmlFile)
-}
+if (!($CleanOnly)) { Get-InventoryData }
 	
-# clean product list 	
-if (Test-Path $NoiseProductsFile) {
-
-	$pattern = "(" + 
-		"^(Security Update|Update|Hotfix|Definition Update|Sicherheitsupdate).*?(Microsoft|Windows)|" +
-		"^Microsoft.*?(Runtime|Compiler|Libraries|Shell|Hosting Support|Resources)|" +
-		"^(Windows Software Development Kit|German Module for Microsoft Dynamics NAV|Hotfix for Visual C)|" +
-		"^(Microsoft Office Proof|Microsoft XNA Game Studio)|" +
-		".*?(Language Pack|Redistributable)|" + 
-		"^Visual C.*?(Runtime)|" +
-		"^Microsoft\s?(\.NET|ASP\.NET)|" + 
-		"^(Adobe Flash Player|Adobe Reader|Adobe Shockwave Player)|" +
-		"^Java\s\d\sUpdate" +
-		")"
-
-	[xml]$Xml = gc $XmlFile
-	$NoiseProducts = [System.IO.File]::ReadAllText($NoiseProductsFile)
-	
-	foreach ($Software in $Xml.SelectNodes("//Software")) {
-
-		# check by pattern
-		if ($Software.InnerText -match $pattern) {
-			[void]$Software.ParentNode.RemoveChild($Software)
-
-		# check by noise product list
-		} elseif ($NoiseProducts.Contains($Software.InnerText.trim())) { 
-			[void]$Software.ParentNode.RemoveChild($Software)
-		}
-	}
-	$Xml.Save($XmlCleanFile)
-
-} else {
-	Write-Host "Result optimization skipped." -fore gray 
-}
+Clean-InventoryData
 
 Write-Host "All done."
-
-
 

@@ -28,7 +28,13 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="CleanPatterns.txt" />
+    <Compile Include="CleanUpInvData.ps1" />
+    <Compile Include="GetSoftwareInventory.ps1" />
     <Compile Include="GetSWinv.ps1" />
+    <Compile Include="INSinv.csv" />
+    <Compile Include="noise_products.txt" />
+    <Compile Include="SoftwareInv.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
