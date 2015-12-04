@@ -6,19 +6,18 @@
 #
 
 param(
+	[string]$XmlFile,
 	[string[]]$ComputerName,
-	[string]$HostsFile = "$($pwd.path)\hosts.txt",
-	[string]$XmlFile = ("{0}\SwInv_{1}.xml" -f $pwd.path,$ENV:USERDNSDOMAIN.replace('.','_')),
+	[string]$HostsFile,
+	[switch]$OnlyAddNew = $true,
 	[switch]$CleanOnly, 
 	[switch]$ShowCleaningReport,
 	[switch]$ShowHosts
 )
 
 # ---------------------------------------------------------------------------
-#     Settings
+#     Fixed Variables
 
-$XmlFile = "{0}\SwInv_{1}.xml" -f $pwd.path,$ENV:USERDNSDOMAIN.replace('.','_')
-$XmlCleanFile = $XmlFile.replace(".xml","_Cleaned.xml")
 $PatternFile = "$($pwd.path)\CleaningPatterns.txt"
 $CleaningReportFile = "$($pwd.path)\CleaningReport.txt" 
 
@@ -31,6 +30,7 @@ $CleaningReportFile = "$($pwd.path)\CleaningReport.txt"
 '@
 
 
+
 # ---------------------------------------------------------------------------
 #     Functions
 
@@ -40,6 +40,13 @@ Filter Get-NameFromLine {
   } else {
 	if ($_.contains('#')) { $_.split('#')[0].trim() } else { $_ } 
   }
+}
+
+Filter Clean-CustomString {
+  if ($_ -ne $null) {
+	while ($_ -match "\s\s") { $_ = $_.replace('  ',' ') }
+    $_.replace('__',' ').replace('_ ',' ').trim('_').trim()
+  } else { $_ }
 }
 
 # ---------------------------------------------------------------------------
@@ -104,6 +111,11 @@ Function Get-Operatingsystem {
 			catch { 
 				Write-Host
 				Write-Host "$($Computer): $($_.Exception.Message)" -fore red -back black 
+				#$props = [ordered]@{
+				#  'ComputerName' = $Computer
+				#  'Error' = $_.Exception.Message
+				#}
+				#New-Object PSObject -prop $props
 			} 		
 		}
 	}
@@ -136,10 +148,15 @@ Function Get-SQLServerVersion {
 					  'SQLVersion' = ($WmiSql[$item] | %{  $_.PropertyStrValue }) -join " "
 					}				
 				}
+				
+				Write-Host "done." -fore gray	
 			}
-			catch { Write-Host "$($Computer): $($_.Exception.Message)" -fore red -back black } 		
-
-			Write-Host "done." -fore gray			
+			catch { 
+				$ErrorLogMsg = "$($Computer): $($_.Exception.Message)"
+				Write-Host
+				Write-Host $ErrorLogMsg -fore red -back black 
+				$ErrorLogMsg >> ".\Errors.log"			
+			}		
 		}
 	}
 }
@@ -188,7 +205,11 @@ Function Get-RemoteSoftware ($ComputerName = $ENV:COMPUTERNAME) {
 			}
 		} | select -Unique ComputerName,AppName,Vendor
 	}
-	catch { Write-Host "$($Computer): $($_.Exception.Message)" -fore red -back black }
+	catch { 
+		$ErrorLogMsg = "$($Computer): $($_.Exception.Message)"
+		Write-Host $ErrorLogMsg -fore red -back black 
+		$ErrorLogMsg >> ".\Errors.log"
+	}
 	
 	Write-Host "done." -fore gray
   }
@@ -212,6 +233,16 @@ Function Clean-InventoryData {
 			}
 		}
 		$Xml.Save($XmlCleanFile)
+
+		# clean model and serial 
+		foreach ($Computer in $Xml.SelectNodes("//Computer")) {
+	
+			while ($Computer.Model -match "\s\s") { $Computer.Model = $Computer.Model.replace('  ',' ') }
+			$Computer.Model = $Computer.Model.replace('__',' ').replace('_ ',' ').trim()
+			$Computer.SerialNumber = $Computer.SerialNumber.trim()
+		}
+		$Xml.Save($XmlCleanFile)
+
 		Write-Host "Inventory result optimization done." -fore gray
 
 	} else {
@@ -230,32 +261,25 @@ Function Show-CleanedProducts {
 # ---------------------------------------------------------------------------
 Function Show-Hosts {
 
-	if (!(Test-Path $XmlFile)) {
-		Write-Host "'$XmlFile' not found. Script aborted." -fore red -back black; break
-	}
-	[xml]$Xml = gc $XmlFile
-	$Xml.SelectNodes("//Computer") | sort Name | ft Name,LastUser -AutoSize
+	Write-Host "List of gathered systems`n" -ForegroundColor Green
+
+	$Props = 
+		@{Name="Name"; Expression={$_.Name}},
+		@{Name="OS";Expression={ $_.Software[0] }},
+		@{Name="Description"; Expression={$_.Description}},
+		@{Name="IP"; Expression={$_.IP}},
+		@{Name="Model"; Expression={$_.Model}},
+		@{Name="LastUser"; Expression={$_.LastUser}}
+
+	$nodes = $Xml.SelectNodes("//Computer") | sort Name | Select-Object $Props
+	$nodes | Export-Csv Computer.csv -NoTypeInformation -Delimiter ";" -NoClobber -Encoding UTF8
+		
 }
 
 
 
 # ---------------------------------------------------------------------------
 Function Get-InventoryData {
-
-	# get hosts
-	if ($ComputerName) { 
-		[string[]]$Computers = $ComputerName 
-	} else { 
-		if (!(Test-Path $HostsFile)) {
-			Write-Host "'$HostsFile' not found. Using localhost." -fore yellow
-			[string[]]$Computers = $env:COMPUTERNAME
-		} else {
-			[string[]]$Computers = gc $HostsFile | Get-NameFromLine
-		}
-	}
-
-	# get exiting xml file
-	if (Test-Path $XmlFile) { [xml]$Xml = gc $XmlFile }
 
 	# get root note
 	$XmlComputers = $Xml.SelectSingleNode("//Computers")
@@ -270,15 +294,21 @@ Function Get-InventoryData {
 		if ($XmlComputer) { [Void]$XmlComputer.ParentNode.RemoveChild($XmlComputer) }
 
 		# add computer node
-		$AvailableComputers += $Result.ComputerName
 		$XmlComputer = New-XmlElement $XmlComputers -Name "Computer" -Attribute @{ 'Name' = $Result.ComputerName }
-		$XmlComputer.SetAttribute('Domain',$Result.Domain)
-		$XmlComputer.SetAttribute('Model',$Result.Manufacturer + ' ' + $Result.Model)	
-		$XmlComputer.SetAttribute('SerialNumber',$Result.SerialNumber)
-		$XmlComputer.SetAttribute('LastUser',$Result.LastUser)			
-			
-		New-XmlElement $XmlComputer -Name 'Software' -InnerText $Result.Name | Out-Null
+		
+		if ($Result.Error) {
+			$XmlComputer.SetAttribute('AccessError',$Result.Error)
+		} else {
+			$XmlComputer.SetAttribute('Domain',$Result.Domain)
+			$XmlComputer.SetAttribute('Model',$Result.Manufacturer + ' ' + $Result.Model)	
+			$XmlComputer.SetAttribute('SerialNumber',$Result.SerialNumber)
+			$XmlComputer.SetAttribute('LastUser',$Result.LastUser)			
+				
+			New-XmlElement $XmlComputer -Name 'Software' -InnerText $Result.Name | Out-Null
 
+			$AvailableComputers += $Result.ComputerName
+		}
+			
 		# add timestamp
 		$XmlComputer.SetAttribute("TimeStamp",(Get-Date).ToString("dd.MM.yyyy HH:mm:ss"))
 
@@ -305,12 +335,88 @@ Function Get-InventoryData {
 # ===========================================================================
 #   MAIN
 
+# get exiting xml file
+if (($XmlFile) -and (Test-Path $XmlFile)) {
+	$XmlFile = (Resolve-Path $XmlFile).path
+	[xml]$Xml = gc $XmlFile
+} else { $XmlFile = ("{0}\SwInv_{1}.xml" -f $pwd.path,$ENV:USERDOMAIN.replace('.','_')) }
+$XmlCleanFile = $XmlFile.replace(".xml","_Cleaned.xml")
+Write-Host "Using '$XmlFile' ..." -fore cyan
+
+# special ops
 if ($ShowCleaningReport) { Show-CleanedProducts; break; }
 if ($ShowHosts) { Show-Hosts; break; }
+if ($CleanOnly) { Clean-InventoryData; break; }
 
-if (!($CleanOnly)) { Get-InventoryData }
-	
+# get hosts
+[string[]]$Computers = $env:COMPUTERNAME
+if ($ComputerName) { 
+	[string[]]$Computers = $ComputerName 
+} elseif ($HostsFile) {
+	if (Test-Path $HostsFile) {
+		$HostsFile = (Resolve-Path $HostsFile).path
+		[string[]]$Computers = gc $HostsFile | Get-NameFromLine
+	} else {
+		Write-Host "'$HostsFile' not found. Using localhost." -fore yellow
+	}
+}
+
+
+# filter existing computer
+if ($OnlyAddNew) {
+	$ExistingHosts = $Xml.SelectNodes("//Computer") | sort Name | %{ $_.Name }
+	if ($ExistingHosts) {
+		$Computers = diff $Computers $ExistingHosts | ?{ $_.sideindicator -eq "<=" } | %{ $_.InputObject }
+	}
+}
+
+
+Get-InventoryData
 Clean-InventoryData
 
 Write-Host "All done."
+
+break
+
+
+
+# ===========================================================================
+#   Additional stuff (not script relevant)
+
+$hosts = gc .\hosts_INSIGMAWEB_DMZ.txt | ?{ -not($_.StartsWith('#')) } 
+$hosts = $hosts | ?{ $_.IndexOf('#') -gt 0 }
+
+$systems = &{ 
+  $hosts | %{ 
+	$item = $_.Split('#') 
+	New-Object -TypeName PSCustomObject -Property @{ 
+		'ComputerName' = $item[0].trim();
+		'Description' = $item[1].trim();
+	}
+  }
+}
+
+$systems = $systems | ?{ $_.Description }
+
+
+foreach ($XmlComputer in $Xml.SelectNodes("//Computer")) {
+	$Description = ""
+	$system = $systems | ?{ $_.ComputerName -eq $XmlComputer.Name }
+	if ($system) { $Description = $system.Description }
+	$XmlComputer.SetAttribute("Description",$Description)
+}
+	
+
+# generate computer short list
+[xml]$Xml = gc $XmlFile
+
+foreach ($Software in $Xml.SelectNodes("//Software")) {
+	[void]$Software.ParentNode.RemoveChild($Software)
+}
+$Xml.Save("C:\Temp\SWInv\Computers.xml")
+
+foreach ($node in $Xml.SelectNodes("//Computer")) {
+	$node.Model = $node.Model | Clean-CustomString
+	$node.SerialNumber = $node.SerialNumber | Clean-CustomString
+}
 
